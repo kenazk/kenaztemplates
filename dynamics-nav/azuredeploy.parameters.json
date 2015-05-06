@@ -1,0 +1,28 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "newStorageAccountName": {
+            "value": "storagenav3"
+        },
+        "location": {
+            "value": "West US"
+        },
+        "dnsName": {
+            "value": "dnsnav"
+        },
+        "adminUserName": {
+            "value": "admin123"
+        },
+        "adminPassword": {
+            "value": "admin123_!"
+        },
+        "SharePointAdminName" : {
+          "value" : "admin123"
+        },
+        "SharePointPassword" : {
+          "value" : "admin123_!"
+        }
+    }
+}
+
