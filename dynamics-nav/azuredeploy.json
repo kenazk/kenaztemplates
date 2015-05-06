@@ -61,6 +61,7 @@
         "addressPrefix":"10.0.0.0/16",
         "subnet1Name" : "subnet1",
         "subnet1Prefix" : "10.0.0.0/24",
+        "virtualNetworkName" : "vnet1",
         "nicName" : "nic1",
         "customScriptCommandToExecute" : "powershell.exe -File install.ps1 ",
         "customScriptFilePath" : "https://raw.githubusercontent.com/kenazk/azurermtemplates/master/dynamics-nav/install.ps1",
