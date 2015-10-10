@@ -1,0 +1,17 @@
+{
+   "newStorageAccountName":{
+      "value":"str123"
+   },
+   "adminUsername":{
+      "value":"admin123"
+   },
+   "adminPassword":{
+      "value":"Admin123_!"
+   },
+   "dnsNameForPublicIP":{
+      "value":"string"
+   },
+   "puppetAgentCount":{
+      "value":1
+    }
+}
