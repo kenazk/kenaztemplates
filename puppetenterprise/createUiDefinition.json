@@ -89,6 +89,18 @@
                 "Standard_DS14"
               ]
             }
+          },
+          {
+            "name": "puppetAgentAcount",
+            "type": "Microsoft.Common.TextBox",
+            "label": "Number of Puppet Agents",
+            "defaultValue": "1",
+            "toolTip": "Number of Puppet Agents to deploy",
+            "constraints": {
+              "required": false,
+              "regex": "^[0-9]{1,5}$",
+              "validationMessage": "Valid number"
+            }
           }
         ]
       }
@@ -98,7 +110,8 @@
       "adminPassword": "[basics('adminPassword')]",
       "storageAccountName": "[steps('infrastructureConfig').storageAccount.name]",
       "dnsNameForPublicIP" : "[steps('infrastructureConfig').puppetmasterip.domainNameLabel]",
-      "vmSize" : "[steps('infrastructureConfig').vmSize]"
+      "vmSize" : "[steps('infrastructureConfig').vmSize]",
+      "puppetAgentCount" : "[steps('infrastructureConfig').puppetAgentCount]"
     }
   }
 }
