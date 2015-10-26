@@ -34,31 +34,6 @@
         "bladeTitle": "Infrastructure settings",
         "elements": [
           {
-            "name": "storageAccount",
-            "type": "Microsoft.Storage.StorageAccountSelector",
-            "label": "Storage account",
-            "defaultValue": {
-              "type": "Standard_LRS"
-            }
-          },
-          {
-            "name": "puppetmasterip",
-            "type": "Microsoft.Network.PublicIpAddressCombo",
-            "label": {
-              "publicIpAddress": "Public IP address",
-              "domainNameLabel": "DNS label"
-            },
-            "toolTip": {
-              "domainNameLabel": "DNS label for the Puppet master."
-            },
-            "defaultValue": {
-              "publicIpAddressName": "puppetmasterip01"
-            },
-            "options": {
-              "hideNone": true
-            }
-          },
-          {
             "name": "vmSize",
             "type": "Microsoft.Compute.SizeSelector",
             "label": "Virtual machine size",
@@ -108,8 +83,6 @@
     "outputs": {
       "adminUsername": "[basics('adminUsername')]",
       "adminPassword": "[basics('adminPassword')]",
-      "storageAccountName": "[steps('infrastructureConfig').storageAccount.name]",
-      "dnsNameForPublicIP" : "[steps('infrastructureConfig').puppetmasterip.domainNameLabel]",
       "vmSize" : "[steps('infrastructureConfig').vmSize]",
       "puppetAgentCount" : "[steps('infrastructureConfig').puppetAgentCount]"
     }

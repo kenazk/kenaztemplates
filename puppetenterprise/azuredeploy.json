@@ -2,12 +2,6 @@
    "$schema":"https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
    "contentVersion":"1.0.0.0",
    "parameters":{
-      "newStorageAccountName":{
-         "type":"string",
-         "metadata":{
-            "description":"Unique DNS Name for the Storage Account where the Virtual Machine's disks will be placed."
-         }
-      },
       "adminUsername":{
          "type":"string",
          "metadata":{
@@ -18,12 +12,6 @@
          "type":"securestring",
          "metadata":{
             "description":"Password for the Virtual Machine."
-         }
-      },
-      "dnsNameForPublicIP":{
-         "type":"string",
-         "metadata":{
-            "description":"Unique DNS Name for the Public IP used to access the Virtual Machine."
          }
       },
       "puppetAgentCount":{
@@ -40,6 +28,8 @@
       }
    },
    "variables":{
+      "newStorageAccountName" : "[concat('str',uniqueString(resourceGroup().id, deployment().name))]",
+      "dnsNameForPublicIP" : "[concat('dns',uniqueString(resourceGroup().id, deployment().name))]",
       "imagePublisher":"PuppetLabs",
       "imageOffer":"PuppetEnterprise",
       "imageSku":"3.2",
@@ -62,7 +52,7 @@
    "resources":[
       {
          "type":"Microsoft.Storage/storageAccounts",
-         "name":"[parameters('newStorageAccountName')]",
+         "name":"[variables('newStorageAccountName')]",
          "apiVersion":"2015-05-01-preview",
          "location":"[resourceGroup().location]",
          "properties":{
@@ -77,7 +67,7 @@
          "properties":{
             "publicIPAllocationMethod":"[variables('publicIPAddressType')]",
             "dnsSettings":{
-               "domainNameLabel":"[parameters('dnsNameForPublicIP')]"
+               "domainNameLabel":"[variables('dnsNameForPublicIP')]"
             }
          }
       },
@@ -93,7 +83,7 @@
          "properties":{
             "publicIPAllocationMethod":"dynamic",
             "dnsSettings":{
-               "domainNameLabel":"[concat(parameters('dnsNameForPublicIP'), copyIndex())]"
+               "domainNameLabel":"[concat(variables('dnsNameForPublicIP'), copyIndex())]"
             }
          }
       },
@@ -265,7 +255,7 @@
          "name":"[variables('puppetMasterVmName')]",
          "location":"[resourceGroup().location]",
          "dependsOn":[
-            "[concat('Microsoft.Storage/storageAccounts/', parameters('newStorageAccountName'))]",
+            "[concat('Microsoft.Storage/storageAccounts/', variables('newStorageAccountName'))]",
             "[concat('Microsoft.Network/networkInterfaces/', variables('nicName'))]"
          ],
          "properties":{
@@ -287,7 +277,7 @@
                "osDisk":{
                   "name":"osdisk",
                   "vhd":{
-                     "uri":"[concat('http://',parameters('newStorageAccountName'),'.blob.core.windows.net/',variables('vmStorageAccountContainerName'),'/',variables('OSDiskName'),'.vhd')]"
+                     "uri":"[concat('http://',variables('newStorageAccountName'),'.blob.core.windows.net/',variables('vmStorageAccountContainerName'),'/',variables('OSDiskName'),'.vhd')]"
                   },
                   "caching":"ReadWrite",
                   "createOption":"FromImage"
@@ -303,7 +293,7 @@
             "diagnosticsProfile":{
                "bootDiagnostics":{
                   "enabled":"true",
-                  "storageUri":"[concat('http://',parameters('newStorageAccountName'),'.blob.core.windows.net')]"
+                  "storageUri":"[concat('http://',variables('newStorageAccountName'),'.blob.core.windows.net')]"
                }
             }
          }
@@ -318,7 +308,7 @@
             "count":"[parameters('puppetAgentCount')]"
          },
          "dependsOn":[
-            "[concat('Microsoft.Storage/storageAccounts/', parameters('newStorageAccountName'))]",
+            "[concat('Microsoft.Storage/storageAccounts/', variables('newStorageAccountName'))]",
             "[concat('Microsoft.Network/networkInterfaces/', 'peAgentNic', copyIndex())]"
          ],
          "properties":{
@@ -340,7 +330,7 @@
                "osDisk":{
                   "name":"osdisk",
                   "vhd":{
-                     "uri":"[concat('http://',parameters('newStorageAccountName'),'.blob.core.windows.net/vhds/','osdisk.vhd')]"
+                     "uri":"[concat('http://',variables('newStorageAccountName'),'.blob.core.windows.net/vhds/','osdisk.vhd')]"
                   },
                   "caching":"ReadWrite",
                   "createOption":"FromImage"
@@ -356,7 +346,7 @@
             "diagnosticsProfile":{
                "bootDiagnostics":{
                   "enabled":"true",
-                  "storageUri":"[concat('http://',parameters('newStorageAccountName'),'.blob.core.windows.net')]"
+                  "storageUri":"[concat('http://',variables('newStorageAccountName'),'.blob.core.windows.net')]"
                }
             }
          }

@@ -1,4 +1,4 @@
-﻿#switch-azuremode -name AzureResourceManager
+﻿switch-azuremode -name AzureResourceManager
 select-AzureSubscription -subscriptionid 85182b66-6daa-40c6-bfa8-42dcc6d6845e
 
 $count = 1
@@ -25,7 +25,6 @@ for($i = 0; $i -lt $count; $i++)
     # Construct parameter set
     $dsuffix = "" + $d.hour + $d.minute + $d.Second
     $hash.dnsNameForPublicIP = "test" + $dsuffix
-    $hash.newStorageAccountName = "sa" + $dsuffix
 
     # Run as asynchronous job
     $jobName = "dep-" + $i;
