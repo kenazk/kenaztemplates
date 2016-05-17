@@ -390,7 +390,7 @@
       "properties": {
         "publisher": "PuppetLabs",
         "type": "PuppetEnterpriseAgent",
-        "typeHandlerVersion": "3.8.4",
+        "typeHandlerVersion": "3.8",
         "settings": {
           "PUPPET_MASTER_SERVER": "[reference(variables('publicIPAddressName'),providers('Microsoft.Network', 'publicIPAddresses').apiVersions[0]).dnsSettings.fqdn]"
         }
