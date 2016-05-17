@@ -391,7 +391,7 @@
         "publisher": "PuppetLabs",
         "type": "PuppetEnterpriseAgent",
         "typeHandlerVersion": "3.8",
-        "settings": {
+        "protectedSettings": {
           "PUPPET_MASTER_SERVER": "[reference(variables('publicIPAddressName'),providers('Microsoft.Network', 'publicIPAddresses').apiVersions[0]).dnsSettings.fqdn]"
         }
       }
