@@ -24,15 +24,15 @@
     "vmSize": {
       "type": "string",
       "metadata": "Size of VM",
-      "defaultValue": "Standard_D1_v2"
+      "defaultValue": "Standard_D2_v2"
     }
   },
   "variables": {
     "newStorageAccountName": "[concat('str',uniqueString(resourceGroup().id, deployment().name))]",
     "dnsNameForPublicIP": "[concat('dns',uniqueString(resourceGroup().id, deployment().name))]",
-    "imagePublisher": "PuppetLabs",
-    "imageOffer": "PuppetEnterprise",
-    "imageSku": "3.2",
+    "imagePublisher": "Puppet",
+    "imageOffer": "Puppet-Enterprise",
+    "imageSku": "2015-3-3",
     "OSDiskName": "osdisk1",
     "nicName": "puppetmasterNic",
     "addressPrefix": "10.0.0.0/16",
@@ -385,7 +385,7 @@
       "properties": {
         "publisher": "PuppetLabs",
         "type": "PuppetEnterpriseAgent",
-        "typeHandlerVersion": "3.2",
+        "typeHandlerVersion": "3.8.4",
         "settings": {
           "PUPPET_MASTER_SERVER": "[reference(variables('publicIPAddressName'),providers('Microsoft.Network', 'publicIPAddresses').apiVersions[0]).dnsSettings.fqdn]"
         }
