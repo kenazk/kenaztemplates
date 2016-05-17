@@ -259,6 +259,11 @@
         "[concat('Microsoft.Storage/storageAccounts/', variables('newStorageAccountName'))]",
         "[concat('Microsoft.Network/networkInterfaces/', variables('nicName'))]"
       ],
+      "plan": {
+        "name": "2015-3-3",
+        "product": "puppet-enterprise",
+        "publisher": "puppet"
+      },
       "properties": {
         "hardwareProfile": {
           "vmSize": "[parameters('vmSize')]"
