@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Puppet Enterprise Cluster",
+  "description": "This template creates a Puppet Enterprise cluster consisting of a master and N Windows agents",
+  "summary": "This template creates a Puppet Enterprise cluster consisting of a master and N Windows agents",
+  "githubUsername": "kenazk",
+  "dateUpdated": "2016-05-18"
+}
