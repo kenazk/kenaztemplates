@@ -371,7 +371,7 @@
            "typeHandlerVersion": "1.3",
            "settings": {
               "fileUris": ["https://raw.githubusercontent.com/kenazk/kenaztemplates/master/puppetenterprise/wait.sh"],
-              "commandToExecute": "sh wait.sh"
+              "commandToExecute": "./wait.sh"
            }
        }
     },
