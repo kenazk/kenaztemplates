@@ -383,7 +383,7 @@
            "type": "CustomScriptForLinux",
            "typeHandlerVersion": "1.3",
            "settings": {
-              "fileUris": ["https://raw.githubusercontent.com/kenazk/kenaztemplates/master/puppetenterprise/wait.sh"],
+              "fileUris": ["https://raw.githubusercontent.com/kenazk/kenaztemplates/master/puppet-enterprise-cluster/wait.sh"],
               "commandToExecute": "./wait.sh"
            }
        }
