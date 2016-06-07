@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {},
   "variables": {
-    "adminUsername" : "[concat('admin',uniqueString(resourceGroup().id,deployment().name))]",
+    "adminUsername" : "admin123",
     "adminPassword" : "[concat('Ad123_!',uniqueString(resourceGroup().id, deployment().name))]",
     "vmSize" : "Standard_D2_v2",
     "newStorageAccountName": "[concat('str',uniqueString(resourceGroup().id, deployment().name))]",
@@ -254,27 +254,15 @@
     }
   ],
   "outputs" : {
-    "ipaddressText": {
-      "value": "Here is the IP address:",
+    "Here is the IP address:": {
+      "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName')), '2016-03-30').dnsSettings.fqdn]",
       "type": "string"
     },
-    "ipaddress": {
-      "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName')),providers('Microsoft.Network', 'publicIPAddresses').apiVersions[0]).ipAddress]",
-      "type": "string"
-    },
-    "adminUsernameText": {
-      "value": "Here is the username (SSH & Admin Console):",
-      "type": "string"
-    },
-    "adminUsername":{
+    "Here is the SSH username:":{
       "value" : "[variables('adminUsername')]",
       "type" : "string"
     },
-    "adminPasswordText": {
-      "value": "Here is the SSH password:",
-      "type": "string"
-    },
-    "adminPassword":{
+    "Here is the SSH password:":{
       "value" : "[variables('adminPassword')]",
       "type" : "string"
     }
