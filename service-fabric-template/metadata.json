@@ -1,7 +1,0 @@
-{
-  "itemDisplayName": "Service Fabric OneBox Demo",
-  "description": "This template uses the Visual Studio image and installs the Service Fabric OneBox demo",
-  "summary": "This template uses the Visual Studio image and installs the Service Fabric OneBox demo",
-  "githubUsername": "kenazk",
-  "dateUpdated": "2015-09-16"
-}

@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {},
   "variables": {
-    "adminUsername" : "admin123",
+    "adminUsername" : "azureuser",
     "adminPassword" : "[concat('Ad123_!',uniqueString(resourceGroup().id, deployment().name))]",
     "vmSize" : "Standard_D2_v2",
     "newStorageAccountName": "[concat('str',uniqueString(resourceGroup().id, deployment().name))]",
