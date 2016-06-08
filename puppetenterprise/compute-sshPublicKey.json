@@ -132,24 +132,6 @@
           }
         }
       }
-    },
-    {
-        "type": "Microsoft.Compute/virtualMachines/extensions",
-        "name": "[concat(parameters('puppetMasterVmName'),'/CustomScriptExtension')]",
-        "apiVersion": "2015-05-01-preview",
-        "location": "[parameters('location')]",
-        "dependsOn": [
-            "[concat('Microsoft.Compute/virtualMachines/', parameters('puppetMasterVmName'))]"
-        ],
-        "properties": {
-           "publisher": "Microsoft.OSTCExtensions",
-           "type": "CustomScriptForLinux",
-           "typeHandlerVersion": "1.3",
-           "settings": {
-              "fileUris": "[variables('fileUri')]",
-              "commandToExecute": "./wait.sh"
-           }
-       }
     }
   ],
   "outputs": {}
