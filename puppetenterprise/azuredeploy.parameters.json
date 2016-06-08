@@ -48,13 +48,13 @@
       "value":"test"
     },
     "publicIPAddressDomainNameLabel": {
-      "value":"dns19734"
+      "value":"dns1741"
     },
     "publicIPAddressNewOrExisting": {
       "value":"new"
     },
     "storageAccountName": {
-      "value":"str19734"
+      "value":"str1741"
     },
     "storageAccountType": {
       "value":"standard_lrs"
@@ -66,7 +66,7 @@
       "value":"new"
     },
     "baseUrl": {
-      "value": "https://raw.githubusercontent.com/kenazk/kenaztemplates/master/puppetenterprise"
+      "value": "https://raw.githubusercontent.com/kenazk/kenaztemplates/stable/puppetenterprise"
     }
   }
 }
