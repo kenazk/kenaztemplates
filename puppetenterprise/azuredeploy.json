@@ -138,9 +138,6 @@
     }
   },
   "variables": {
-    "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',parameters('virtualNetworkName'))]",
-    "subnetRef": "[concat(variables('vnetID'),'/subnets/',parameters('virtualNetworkSubnetName'))]",
-    "publicIpId": "[resourceId(resourceGroup().Name,concat('Microsoft.Network','/','publicIPAddresses'),parameters('publicIPAddressName'))]",
     "storageAccountSetupUrl":"[concat(parameters('baseUrl'),'/storage-',parameters('storageAccountNewOrExisting'),'.json')]",
     "publicIpAddressSetupUrl":"[concat(parameters('baseUrl'),'/publicip-',parameters('publicIPAddressNewOrExisting'),'.json')]",
     "vnetSetupUrl":"[concat(parameters('baseUrl'),'/vnet-',parameters('virtualNetworkNewOrExisting'),'.json')]",
@@ -270,10 +267,10 @@
             "value": "[parameters('location')]"
           },
           "publicIpAddressResourceId": {
-            "value": "[variables('publicIpId')]"
+            "value": "[reference('SettingUpPublicIPs').outputs.publicIpId.value]"
           },
           "subnetRef": {
-            "value": "[variables('subnetRef')]"
+            "value": "[reference('SettingUpVirtualNetwork').outputs.subnetRef.value]"
           },
           "puppetMasterVmName": {
             "value": "[parameters('puppetMasterVmName')]"
@@ -294,7 +291,7 @@
             "value": "[parameters('storageAccountName')]"
           },
           "fqdn": {
-            "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses',parameters('publicIPAddressName')), '2016-03-30').dnsSettings.fqdn]"
+            "value": "[reference('SettingUpPublicIPs').outputs.fqdn.value]"
           }
         }
       }
