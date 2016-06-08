@@ -29,7 +29,19 @@
     "adminPassword": {
       "type":"securestring",
       "metadata":{
-        "description":"Admin password or SSH key"
+        "description":"Admin password"
+      }
+    },
+    "sshPublicKey": {
+      "type":"securestring",
+      "metadata":{
+        "description":"SSH key"
+      }
+    },
+    "authenticationType": {
+      "type":"securestring",
+      "metadata":{
+        "description":"Authentication Type"
       }
     },
     "virtualNetworkName": {
@@ -141,7 +153,7 @@
     "storageAccountSetupUrl":"[concat(parameters('baseUrl'),'/storage-',parameters('storageAccountNewOrExisting'),'.json')]",
     "publicIpAddressSetupUrl":"[concat(parameters('baseUrl'),'/publicip-',parameters('publicIPAddressNewOrExisting'),'.json')]",
     "vnetSetupUrl":"[concat(parameters('baseUrl'),'/vnet-',parameters('virtualNetworkNewOrExisting'),'.json')]",
-    "vmSetupUrl":"[concat(parameters('baseUrl'),'/compute.json')]",
+    "vmSetupUrl":"[concat(parameters('baseUrl'),'/compute-',parameters('authenticationType'),'.json')]",
     "networkSecurityGroupSetupUrl":"[concat(parameters('baseUrl'),'/networkSecurityGroup.json')]"
   },
   "resources": [
@@ -286,6 +298,9 @@
           },
           "adminPassword": {
             "value": "[parameters('adminPassword')]"
+          },
+          "sshPublicKey": {
+            "value": "[parameters('sshPublicKey')]"
           },
           "storageAccountName": {
             "value": "[parameters('storageAccountName')]"

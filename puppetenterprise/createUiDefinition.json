@@ -203,6 +203,8 @@
       "vmSize" : "[steps('Compute').vmSize]",
       "adminUsername": "[steps('Compute').adminUsername]",
       "adminPassword": "[steps('Compute').adminPassword.password]",
+      "sshPublicKey" : "[steps('Compute').adminPassword.sshPublicKey]",
+      "authenticationType":"[steps('Compute').adminPassword.authenticationType]",
       "virtualNetworkName": "[steps('Network').virtualNetwork.name]",
       "virtualNetworkResourceGroup": "[steps('Network').virtualNetwork.resourceGroup]",
       "virtualNetworkAddressPrefix": "[steps('Network').virtualNetwork.addressPrefix)]",
