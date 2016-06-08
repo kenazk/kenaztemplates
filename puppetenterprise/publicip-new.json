@@ -8,9 +8,6 @@
     "publicIPAddressName": {
       "type": "string"
     },
-    "publicIPAddressType": {
-      "type": "string"
-    },
     "publicIPAddressDomainNameLabel": {
       "type": "string"
     },
@@ -25,7 +22,7 @@
       "name": "[parameters('publicIPAddressName')]",
       "location": "[parameters('location')]",
       "properties": {
-        "publicIPAllocationMethod": "[parameters('publicIPAddressType')]",
+        "publicIPAllocationMethod": "Dynamic",
         "dnsSettings": {
           "domainNameLabel": "[parameters('publicIPAddressDomainNameLabel')]"
         }
