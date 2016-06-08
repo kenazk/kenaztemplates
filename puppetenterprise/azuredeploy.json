@@ -293,6 +293,9 @@
           },
           "fqdn": {
             "value": "[reference('SettingUpPublicIPs').outputs.fqdn.value]"
+          },
+          "baseUrl":{
+            "value" : "[parameters('baseUrl')]"
           }
         }
       }
