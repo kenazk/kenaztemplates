@@ -8,9 +8,6 @@
     "publicIPAddressName": {
       "type": "string"
     },
-    "publicIPAddressType": {
-      "type": "string"
-    },
     "publicIPAddressDomainNameLabel": {
       "type": "string"
     },
