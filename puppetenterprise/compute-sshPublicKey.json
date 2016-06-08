@@ -28,6 +28,9 @@
     },
     "storageAccountName": {
       "type": "string"
+    },
+    "fqdn": {
+      "type": "string"
     }
   },
   "variables": {
@@ -37,7 +40,7 @@
     "OSDiskName": "osdisk1",
     "nicName": "puppetmasterNic",
     "vmStorageAccountContainerName": "vhds",
-    "customData": "[concat('#!/bin/bash\n','\n','azure_externalFQDN=',variables('fqdn'))]"
+    "customData": "[concat('#!/bin/bash\n','\n','azure_externalFQDN=',parameters('fqdn'))]"
   },
   "resources": [
     {
