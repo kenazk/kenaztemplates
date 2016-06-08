@@ -48,13 +48,13 @@
       "value":"test"
     },
     "publicIPAddressDomainNameLabel": {
-      "value":"dns183"
+      "value":"dns1833"
     },
     "publicIPAddressNewOrExisting": {
       "value":"new"
     },
     "storageAccountName": {
-      "value":"str183"
+      "value":"str1833"
     },
     "storageAccountType": {
       "value":"standard_lrs"
