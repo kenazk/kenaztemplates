@@ -1,0 +1,3 @@
+Type this in a browser:
+
+https://portal.azure.com/#blade/Microsoft_Azure_Compute/CreateMultiVmWizardBlade/internal_bladeCallId/anything/internal_bladeCallerParams/{"initialData":{},"providerConfig":{"createUiDefinition":"https%3A%2F%2Fgist.githubusercontent.com%2Fkenazk%2F81bf7ba4aa705d9744dec9c776ee5599%2Fraw%2Fb4ec08df7e5e2d5f638372a001f14d4ad9c4b9ff%2FCreateUiDefinition.json"}}
