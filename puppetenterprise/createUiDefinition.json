@@ -1,0 +1,223 @@
+{
+  "handler": "Microsoft.Compute.MultiVm",
+  "version": "0.0.1-preview",
+  "parameters": {
+    "basics": [
+      {
+        "name": "puppetMasterVmName",
+        "type": "Microsoft.Common.TextBox",
+        "label": "Puppet Enterprise Master VM Name",
+        "defaultValue": "puppetmaster",
+        "constraints": {
+          "required": true,
+          "regex": "^[a-z0-9A-Z]{1,63}$",
+          "validationMessage": "Only letters and numbers are allowed, and the value must be 1-63 characters long."
+        }
+      }
+    ],
+    "steps": [
+      {
+        "name": "settings",
+        "label": "Settings",
+        "subLabel": {
+          "preValidation": "Configure infrastructure settings",
+          "postValidation": "Done"
+        },
+        "bladeTitle": "Settings",
+        "elements": [
+          {
+            "name": "Compute",
+            "type": "Microsoft.Common.Section",
+            "label": "Compute",
+            "elements": [
+              {
+                "name": "adminUsername",
+                "type": "Microsoft.Compute.UserNameTextBox",
+                "label": "Username",
+                "toolTip": "Admin username for the Puppet Enterprise master",
+                "osPlatform": "Linux",
+                "constraints": {
+                    "required": true
+                }
+              },
+              {
+                "name": "adminPassword",
+                "type": "Microsoft.Compute.CredentialsCombo",
+                "label": {
+                  "authenticationType": "Authentication type",
+                  "password": "Password",
+                  "confirmPassword": "Confirm password",
+                  "sshPublicKey": "SSH public key"
+                },
+                "toolTip": {
+                  "authenticationType": "",
+                  "password": "",
+                  "sshPublicKey": ""
+                },
+                "constraints": {
+                  "required": true
+                },
+                "options": {
+                  "hideConfirmation": false,
+                  "hidePassword": false
+                },
+                "osPlatform": "Linux",
+                "visible": true
+              },
+              {
+                "name": "vmSize",
+                "type": "Microsoft.Compute.SizeSelector",
+                "label": "Size",
+                "toolTip": "",
+                "recommendedSizes": [
+                  "Standard_D2_v2",
+                  "Standard_D2",
+                  "Standard_D3_v2",
+                  "Standard_D3"
+                ],
+                "constraints": {
+                  "allowedSizes": [],
+                  "excludedSizes": [
+                    "Standard_A0",
+                    "Standard_A1",
+                    "Basic_A0",
+                    "Basic_A1",
+                    "Basic_A2",
+                    "Basic_A3",
+                    "Basic_A5"
+                  ]
+                },
+                "osPlatform": "Linux",
+                "imageReference": {
+                  "publisher": "Puppet",
+                  "offer": "Puppet-Enterprise",
+                  "sku": "2015-3-3"
+                },
+                "visible": true
+              }
+            ],
+            "visible": true
+          },
+          {
+            "name": "Network",
+            "type": "Microsoft.Common.Section",
+            "label": "Network",
+            "elements": [
+              {
+                "name": "ipAddress",
+                "type": "Microsoft.Network.PublicIpAddressCombo",
+                "label": {
+                  "publicIpAddress": "Public IP address",
+                  "domainNameLabel": "DNS label"
+                },
+                "toolTip": {
+                  "publicIpAddress":"Public IP address for Puppet Enterprise master",
+                  "domainNameLabel": "DNS label for Puppet Enterprise master"
+                },
+                "defaultValue": {
+                  "publicIpAddressName": "ip01",
+                  "domainNameLabel":"[concat('puppet',substring(guid(),0,4))]"
+                },
+                "options": {
+                  "hideNone": true,
+                  "hideDomainNameLabel": false
+                },
+                "constraints": {
+                  "required": {
+                  "domainNameLabel": true
+                  }
+                }
+              },
+              {
+                "name": "virtualNetwork",
+                "type": "Microsoft.Network.VirtualNetworkCombo",
+                "label": {
+                  "virtualNetwork": "Virtual network",
+                  "subnets": "Subnets"
+                },
+                "toolTip": {
+                  "virtualNetwork": "Virtual networks are logically isolated from each other in Azure. You can configure their IP address ranges, subnets, route tables, gateways, and security settings, much like a traditional network in your datacenter.",
+                  "subnets": "The subnet's address range in CIDR notation. It must be contained by the address space of the virtual network. The address range of a subnet which is in use can't be edited."
+                },
+                "defaultValue": {
+                  "name": "vnet01",
+                  "addressPrefixSize": "/16"
+                },
+                "constraints": {
+                  "minAddressPrefixSize": "/16"
+                },
+                "options": {
+                  "hideExisting": false
+                },
+                "subnets": {
+                  "subnet1": {
+                    "label": "First subnet",
+                    "defaultValue": {
+                      "name": "subnet-1",
+                      "addressPrefixSize": "/24"
+                    },
+                    "constraints": {
+                      "minAddressPrefixSize": "/24",
+                      "minAddressCount": 12,
+                      "requireContiguousAddresses": true
+                    }
+                  }
+                },
+                "visible": true
+              }
+            ],
+            "visible": true
+          },
+          {
+            "name": "Storage",
+            "type": "Microsoft.Common.Section",
+            "label": "Storage",
+            "elements": [
+              {
+                "name": "storageAccount",
+                "type": "Microsoft.Storage.StorageAccountSelector",
+                "label": "Storage account",
+                "toolTip": "Storage account for the Virtual Machine disks",
+                "defaultValue": {
+                  "name": "[concat('str',substring(guid(),0,4))]",
+                  "type": "Standard_LRS"
+                },
+                "constraints": {
+                  "allowedTypes": [],
+                  "excludedTypes": []
+                },
+                "options": {
+                  "hideExisting": false
+                },
+                "visible": true
+              }
+            ],
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "outputs": {
+      "location": "[location()]",
+      "puppetMasterVmName": "[basics('puppetMasterVmName')]",
+      "vmSize" : "[steps('Compute').vmSize]",
+      "adminUsername": "[steps('Compute').adminUsername]",
+      "adminPassword": "[steps('Compute').adminPassword.password]",
+      "virtualNetworkName": "[steps('Network').virtualNetwork.name]",
+      "virtualNetworkResourceGroup": "[steps('Network').virtualNetwork.resourceGroup]",
+      "virtualNetworkAddressPrefix": "[steps('Network').virtualNetwork.addressPrefix)]",
+      "virtualNetworkNewOrExisting": "[steps('Network').virtualNetwork.newOrExisting)]",
+      "virtualNetworkSubnetName": "[steps('Network').virtualNetwork.subnet1.name)]",
+      "virtualNetworkSubnetAddressPrefix": "[steps('Network').virtualNetwork.subnet1.addressPrefix]",
+      "virtualNetworkSubnetStartAddress": "[steps('Network').virtualNetwork.subnet1.startAddress]",
+      "publicIPAddressName" : "[steps('Network').ipAddress.name]",
+      "publicIPAddressResourceGroup" : "steps('Network').ipAddress.resourceGroup",
+      "publicIPAddressDomainNameLabel" : "steps('Network').ipAddress.domainNameLabel",
+      "publicIPAddressNewOrExisting" : "steps('Network').ipAddress.newOrExistingOrNone",
+      "storageAccountName": "[steps('Storage').storageAccount.name]",
+      "storageAccountType": "[steps('Storage').storageAccount.type]",
+      "storageAccountResourceGroup": "[steps('Storage').storageAccount.resourceGroup]",
+      "storageAccountNewOrExisting": "[steps('Storage').storageAccount.newOrExisting]"
+    }
+  }
+}
