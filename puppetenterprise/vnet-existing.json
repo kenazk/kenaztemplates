@@ -21,7 +21,32 @@
       "type": "string"
     }
   },
-  "resources": [],
+  "resources": [
+    {
+      "apiVersion": "2015-05-01-preview",
+      "type": "Microsoft.Network/virtualNetworks",
+      "name": "[parameters('virtualNetworkName')]",
+      "location": "[parameters('location')]",
+      "properties": {
+        "addressSpace": {
+          "addressPrefixes": [
+            "[parameters('virtualNetworkAddressPrefix')]"
+          ]
+        },
+        "subnets": [
+          {
+            "name": "[parameters('virtualNetworkSubnetName')]",
+            "properties": {
+              "addressPrefix": "[parameters('virtualNetworkSubnetAddressPrefix')]",
+              "networkSecurityGroup": {
+                "id": "[resourceId('Microsoft.Network/networkSecurityGroups', 'puppetNetworkSecurityGroup')]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
   "outputs": {
     "subnetRef": {
       "value": "[concat(resourceId('Microsoft.Network/virtualNetworks/', parameters('virtualNetworkName')), '/subnets/',parameters('virtualNetworkSubnetName'))]",
