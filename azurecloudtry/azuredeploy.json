@@ -4,13 +4,13 @@
   "parameters": {},
   "variables": {
     "adminUsername" : "azureuser",
-    "adminPassword" : "[concat('Ad123_!',uniqueString(resourceGroup().id, deployment().name))]",
+    "adminPassword" : "[concat('Ad123!',uniqueString(resourceGroup().id, deployment().name))]",
     "vmSize" : "Standard_D2_v2",
     "newStorageAccountName": "[concat('str',uniqueString(resourceGroup().id, deployment().name))]",
     "dnsNameForPublicIP": "[concat('dns',uniqueString(resourceGroup().id, deployment().name))]",
     "imagePublisher": "Puppet",
-    "imageOffer": "Puppet-Enterprise",
-    "imageSku": "2015-3-3",
+    "imageOffer": "puppet-enterprise",
+    "imageSku": "2016-1",
     "OSDiskName": "osdisk1",
     "nicName": "puppetmasterNic",
     "addressPrefix": "10.0.0.0/16",
@@ -111,6 +111,20 @@
             }
           },
           {
+	          "name": "graphite",
+            "properties": {
+              "description": "Enable graphite",
+              "protocol": "tcp",
+              "sourcePortRange": "*",
+              "destinationPortRange": "80",
+              "sourceAddressPrefix": "*",
+              "destinationAddressPrefix": "*",
+              "access": "Allow",
+              "priority": 101,
+              "direction": "Inbound"
+            }
+          },
+          {
             "name": "MCollective",
             "properties": {
               "description": "MCollective",
@@ -190,7 +204,7 @@
         "[concat('Microsoft.Network/networkInterfaces/', variables('nicName'))]"
       ],
       "plan": {
-        "name": "2015-3-3",
+        "name": "2016-1",
         "product": "puppet-enterprise",
         "publisher": "puppet"
       },
@@ -201,7 +215,8 @@
         "osProfile": {
           "computername": "[variables('puppetMasterVmName')]",
           "adminUsername": "[variables('adminUserName')]",
-          "adminPassword": "[variables('adminPassword')]"
+          "adminPassword": "[variables('adminPassword')]",
+          "customData": "[base64(concat('#!/bin/bash\n\ncat <<EOF >/tmp/puppet_override.answers\n','azure_externalFQDN=',reference(resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName')), '2016-03-30').dnsSettings.fqdn,'\n','azure_internalFQDN=$(hostname -f)\n\nq_puppet_enterpriseconsole_auth_password=',variables('adminPassword'),'\nq_database_host=\\${azure_externalFQDN}\nq_puppet_enterpriseconsole_master_hostname=\\${azure_externalFQDN}\nq_puppet_enterpriseconsole_smtp_host=\\${azure_externalFQDN}\nq_puppetagent_certname=\\${azure_externalFQDN}\nq_puppetmaster_dnsaltnames=puppet,$(hostname),\\${azure_internalFQDN},\\${azure_externalFQDN}\nq_puppetagent_server=\\${azure_externalFQDN}\nq_puppetdb_hostname=\\${azure_externalFQDN}\nq_puppetmaster_certname=\\${azure_externalFQDN}\nEOF\nchmod +x /tmp/puppet_override.answers\n'))]"
         },
         "storageProfile": {
           "imageReference": {
@@ -262,7 +277,7 @@
       "value" : "[variables('adminUsername')]",
       "type" : "string"
     },
-    "Here is the SSH password:":{
+    "Here is the password (SSH and console):":{
       "value" : "[variables('adminPassword')]",
       "type" : "string"
     }
