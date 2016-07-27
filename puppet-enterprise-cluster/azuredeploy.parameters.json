@@ -5,10 +5,13 @@
    "adminPassword":{
       "value":"Admin123_!"
    },
-   "dnsNameForPublicIP":{
-      "value":"kenaztest6"
-   },
-   "puppetAgentCount":{
+   "windowsAgentCount":{
       "value":1
-    }
+   },
+   "linuxAgentCount":{
+      "value":1
+   },
+   "vmSize": {
+     "value": "Standard_D1_v2"
+   }
 }

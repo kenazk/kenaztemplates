@@ -8,4 +8,4 @@
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
-This is a template that will deploy a Puppet Master and N number of Windows Agents that use the Puppet extension to configure and talk back to the master. We will update to include Linux agents later.
+This template creates a Puppet Enterprise cluster consisting of a master and a configurable number of Windows & Linux agents.
