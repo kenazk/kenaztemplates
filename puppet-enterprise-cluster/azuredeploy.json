@@ -41,7 +41,7 @@
     "imagePublisher": "Puppet",
     "imageOffer": "Puppet-Enterprise",
     "imageSku": "2016-1",
-    "OSDiskName": "osdisk1",
+    "OSDiskName": "puppetMasterDisk",
     "nicName": "puppetmasterNic",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
@@ -490,7 +490,7 @@
            "typeHandlerVersion": "1.3",
            "settings": {
               "fileUris": ["https://raw.githubusercontent.com/kenazk/kenaztemplates/master/puppet-enterprise-cluster/install_puppet_agent.sh"],
-              "commandToExecute": "[concat('./install_puppet_agent.sh ', reference(concat('Microsoft.Network/publicIPAddresses/',variables('publicIPAddressName'))).ipAddress, ' ', reference(resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName')), '2016-03-30').dnsSettings.fqdn)]"
+              "commandToExecute": "[concat('./install_puppet_agent.sh ', reference(resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName')), '2016-03-30').dnsSettings.fqdn)]"
            }
        }
     }
