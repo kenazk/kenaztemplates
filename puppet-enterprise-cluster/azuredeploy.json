@@ -150,7 +150,7 @@
             }
           },
           {
-	"name": "ssh",
+	           "name": "ssh",
             "properties": {
               "description": "Allow RDP",
               "protocol": "tcp",
@@ -410,5 +410,11 @@
         }
       }
     }
-  ]
+  ],
+  "outputs" : {
+    "Here is the SSH URL:": {
+      "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName')), '2016-03-30').dnsSettings.fqdn]",
+      "type": "string"
+    }
+  }
 }
