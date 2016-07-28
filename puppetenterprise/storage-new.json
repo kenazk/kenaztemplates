@@ -28,19 +28,25 @@
     {
       "type": "Microsoft.Storage/storageAccounts",
       "name": "[concat(parameters('storageAccountName'))]",
-      "apiVersion": "2015-06-15",
+      "apiVersion": "2016-01-01",
       "location": "[parameters('location')]",
+      "sku": {
+          "name": "[parameters('storageAccountType')]"
+      },
+      "kind": "Storage",
       "properties": {
-        "accountType": "[parameters('storageAccountType')]"
       }
     },
     {
       "type": "Microsoft.Storage/storageAccounts",
       "name": "[concat(parameters('storageAccountName'),'2')]",
-      "apiVersion": "2015-06-15",
+      "apiVersion": "2016-01-01",
       "location": "[parameters('location')]",
+      "sku": {
+          "name": "Standard_LRS"
+      },
+      "kind": "Storage",
       "properties": {
-        "accountType": "Standard_LRS"
       }
     }
   ],

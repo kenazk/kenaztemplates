@@ -23,6 +23,9 @@
     "adminPassword": {
       "type": "securestring"
     },
+    "consolePassword": {
+      "type": "securestring"
+    },
     "sshPublicKey": {
       "type": "securestring"
     },
@@ -43,12 +46,12 @@
     "OSDiskName": "osdisk1",
     "nicName": "puppetmasterNic",
     "vmStorageAccountContainerName": "vhds",
-    "customData": "[concat('#!/bin/bash\n\ncat <<EOF >/tmp/puppet_override.answers\n','azure_externalFQDN=',parameters('fqdn'),'\n','azure_internalFQDN=$(hostname -f)\n\nq_database_host=\\${azure_externalFQDN}\nq_puppet_enterpriseconsole_master_hostname=\\${azure_externalFQDN}\nq_puppet_enterpriseconsole_smtp_host=\\${azure_externalFQDN}\nq_puppetagent_certname=\\${azure_externalFQDN}\nq_puppetmaster_dnsaltnames=puppet,\\${azure_internalFQDN},\\${azure_externalFQDN}\nq_puppetagent_server=\\${azure_externalFQDN}\nq_puppetdb_hostname=\\${azure_externalFQDN}\nq_puppetmaster_certname=\\${azure_externalFQDN}\nEOF\nchmod +x /tmp/puppet_override.answers\n')]",
+    "customData": "[concat('#!/bin/bash\n\ncat <<EOF >/tmp/puppet_override.answers\n','azure_externalFQDN=',parameters('fqdn'),'\n','azure_internalFQDN=$(hostname -f)\n\nq_puppet_enterpriseconsole_auth_password=',parameters('consolePassword'),'\nq_database_host=\\${azure_externalFQDN}\nq_puppet_enterpriseconsole_master_hostname=\\${azure_externalFQDN}\nq_puppet_enterpriseconsole_smtp_host=\\${azure_externalFQDN}\nq_puppetagent_certname=\\${azure_externalFQDN}\nq_puppetmaster_dnsaltnames=puppet,$(hostname),\\${azure_internalFQDN},\\${azure_externalFQDN}\nq_puppetagent_server=\\${azure_externalFQDN}\nq_puppetdb_hostname=\\${azure_externalFQDN}\nq_puppetmaster_certname=\\${azure_externalFQDN}\nEOF\nchmod +x /tmp/puppet_override.answers\n')]",
     "fileUri":"[concat(parameters('baseUrl'),'/wait.sh')]"
   },
   "resources": [
     {
-      "apiVersion": "2015-05-01-preview",
+      "apiVersion": "2016-03-30",
       "type": "Microsoft.Network/networkInterfaces",
       "name": "[variables('nicName')]",
       "location": "[parameters('location')]",
@@ -70,7 +73,7 @@
       }
     },
     {
-      "apiVersion": "2015-06-15",
+      "apiVersion": "2016-03-30",
       "type": "Microsoft.Compute/virtualMachines",
       "name": "[parameters('puppetMasterVmName')]",
       "location": "[parameters('location')]",
@@ -136,7 +139,7 @@
     {
         "type": "Microsoft.Compute/virtualMachines/extensions",
         "name": "[concat(parameters('puppetMasterVmName'),'/CustomScriptExtension')]",
-        "apiVersion": "2015-05-01-preview",
+        "apiVersion": "2016-03-30",
         "location": "[parameters('location')]",
         "dependsOn": [
             "[concat('Microsoft.Compute/virtualMachines/', parameters('puppetMasterVmName'))]"

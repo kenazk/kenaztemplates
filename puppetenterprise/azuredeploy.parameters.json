@@ -17,6 +17,9 @@
     "adminPassword": {
       "value":"Admin123_!"
     },
+    "consolePassword": {
+      "value":"Admin123_!"
+    },
     "sshPublicKey": {
       "value":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/bITmAhEta1ai6xaXipC+wWy7ZpnO1QJRn3+qnPd4SplvXcRfBDtLsIKFzeQ+zr5quoQWcneKHkYA9Aq01XmXK8qE71iJgu2erJTbopxkNod2+/3FJiSR4kTKU1MzJ++OUI9Tz9POT9BXVNETeqKKrK/nkKunohd4oSRYf5lVL7JBqCWswoOBoB8uy10GysuB3RMZLdTSeXBe1sXz01Pq3ncpsNj5bgn1A12zmj26boI0U8/66R3YTAA/MUMQijSWd5nDvaw5Zd9CJfNA0WDai0AKmZ0/uHf6EyakuNF1+AlPiajVKXCey2+6/nwe+oMgE3ImUiaiDXKCBB6GzlLj kenazk@kenaz1.corp.puppetlabs.net"
     },
