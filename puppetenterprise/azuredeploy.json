@@ -134,7 +134,7 @@
         "description":"Storage Acccount New or Existing"
       }
     },
-    "baseUrl": {
+    "templateBaseUrl": {
       "type": "string",
       "metadata": {
         "artifactsBaseUrl": "",
@@ -144,11 +144,11 @@
     }
   },
   "variables": {
-    "storageAccountSetupUrl":"[concat(parameters('baseUrl'),'/storage-',parameters('storageAccountNewOrExisting'),'.json')]",
-    "publicIpAddressSetupUrl":"[concat(parameters('baseUrl'),'/publicip-',parameters('publicIPAddressNewOrExisting'),'.json')]",
-    "vnetSetupUrl":"[concat(parameters('baseUrl'),'/vnet-',parameters('virtualNetworkNewOrExisting'),'.json')]",
-    "vmSetupUrl":"[concat(parameters('baseUrl'),'/compute-',parameters('authenticationType'),'.json')]",
-    "networkSecurityGroupSetupUrl":"[concat(parameters('baseUrl'),'/networkSecurityGroup.json')]"
+    "storageAccountSetupUrl":"[concat(parameters('templateBaseUrl'),'/storage-',parameters('storageAccountNewOrExisting'),'.json')]",
+    "publicIpAddressSetupUrl":"[concat(parameters('templateBaseUrl'),'/publicip-',parameters('publicIPAddressNewOrExisting'),'.json')]",
+    "vnetSetupUrl":"[concat(parameters('templateBaseUrl'),'/vnet-',parameters('virtualNetworkNewOrExisting'),'.json')]",
+    "vmSetupUrl":"[concat(parameters('templateBaseUrl'),'/compute-',parameters('authenticationType'),'.json')]",
+    "networkSecurityGroupSetupUrl":"[concat(parameters('templateBaseUrl'),'/networkSecurityGroup.json')]"
   },
   "resources": [
     {
@@ -303,8 +303,8 @@
           "fqdn": {
             "value": "[reference('SettingUpPublicIPs').outputs.fqdn.value]"
           },
-          "baseUrl":{
-            "value" : "[parameters('baseUrl')]"
+          "templateBaseUrl":{
+            "value" : "[parameters('templateBaseUrl')]"
           }
         }
       }

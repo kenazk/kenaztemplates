@@ -68,7 +68,7 @@
     "storageAccountNewOrExisting": {
       "value":"new"
     },
-    "baseUrl": {
+    "templateBaseUrl": {
       "value": "https://raw.githubusercontent.com/kenazk/kenaztemplates/master/puppetenterprise"
     }
   }
