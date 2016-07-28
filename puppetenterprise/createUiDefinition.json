@@ -13,6 +13,24 @@
           "regex": "^[a-z0-9A-Z]{1,63}$",
           "validationMessage": "Only letters and numbers are allowed, and the value must be 1-63 characters long."
         }
+      },
+      {
+        "name": "consolePassword",
+        "type": "Microsoft.Common.PasswordBox",
+        "label": {
+          "password": "Puppet Enterprise Console Password",
+          "confirmPassword": "Confirm console password"
+        },
+        "toolTip": "",
+        "constraints": {
+          "required": true,
+          "regex": "",
+          "validationMessage": ""
+        },
+        "options": {
+          "hideConfirmation": false
+        },
+        "visible": true
       }
     ],
     "steps": [
@@ -62,24 +80,6 @@
                   "hidePassword": false
                 },
                 "osPlatform": "Linux",
-                "visible": true
-              },
-              {
-                "name": "consolePassword",
-                "type": "Microsoft.Common.PasswordBox",
-                "label": {
-                  "password": "Console Password",
-                  "confirmPassword": "Confirm console password"
-                },
-                "toolTip": "",
-                "constraints": {
-                  "required": true,
-                  "regex": "",
-                  "validationMessage": ""
-                },
-                "options": {
-                  "hideConfirmation": false
-                },
                 "visible": true
               },
               {
@@ -224,7 +224,7 @@
       "adminUsername": "[steps('Compute').adminUsername]",
       "adminPassword": "[steps('Compute').adminPassword.password]",
       "sshPublicKey" : "[steps('Compute').adminPassword.sshPublicKey]",
-      "consolePassword": "[steps('Compute').consolePassword]",
+      "consolePassword": "[basics('consolePassword')]",
       "authenticationType":"[steps('Compute').adminPassword.authenticationType]",
       "virtualNetworkName": "[steps('Network').virtualNetwork.name]",
       "virtualNetworkResourceGroup": "[steps('Network').virtualNetwork.resourceGroup]",
