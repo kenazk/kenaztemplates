@@ -65,6 +65,24 @@
                 "visible": true
               },
               {
+                "name": "consolePassword",
+                "type": "Microsoft.Common.PasswordBox",
+                "label": {
+                  "password": "Console Password",
+                  "confirmPassword": "Confirm console password"
+                },
+                "toolTip": "",
+                "constraints": {
+                  "required": true,
+                  "regex": "",
+                  "validationMessage": ""
+                },
+                "options": {
+                  "hideConfirmation": false
+                },
+                "visible": true
+              },
+              {
                 "name": "vmSize",
                 "type": "Microsoft.Compute.SizeSelector",
                 "label": "Size",
@@ -72,8 +90,10 @@
                 "recommendedSizes": [
                   "Standard_D2_v2",
                   "Standard_D2",
+                  "Standard_DS2",
                   "Standard_D3_v2",
-                  "Standard_D3"
+                  "Standard_D3",
+                  "Standard_DS3"
                 ],
                 "constraints": {
                   "allowedSizes": [],
@@ -204,6 +224,7 @@
       "adminUsername": "[steps('Compute').adminUsername]",
       "adminPassword": "[steps('Compute').adminPassword.password]",
       "sshPublicKey" : "[steps('Compute').adminPassword.sshPublicKey]",
+      "consolePassword": "[steps('Compute').consolePassword]",
       "authenticationType":"[steps('Compute').adminPassword.authenticationType]",
       "virtualNetworkName": "[steps('Network').virtualNetwork.name]",
       "virtualNetworkResourceGroup": "[steps('Network').virtualNetwork.resourceGroup]",
