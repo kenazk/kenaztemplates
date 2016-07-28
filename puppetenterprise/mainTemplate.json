@@ -312,7 +312,7 @@
   ],
   "outputs" : {
     "Puppet Enterprise Console FQDN:": {
-      "value": "[reference('SettingUpPublicIPs').outputs.fqdn.value]",
+      "value": "[concat('https://',reference('SettingUpPublicIPs').outputs.fqdn.value]",
       "type": "string"
     }
   }
