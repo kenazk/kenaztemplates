@@ -312,7 +312,7 @@
   ],
   "outputs" : {
     "Puppet Enterprise Console FQDN:": {
-      "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses',parameters('publicIPAddressName')), '2016-03-30').dnsSettings.fqdn]",
+      "value": "[reference('SettingUpPublicIPs').outputs.fqdn.value]",
       "type": "string"
     }
   }
