@@ -10,8 +10,8 @@
         "defaultValue": "puppetmaster",
         "constraints": {
           "required": true,
-          "regex": "^[a-z0-9]{1,25}$",
-          "validationMessage": "Only lowercase letters and numbers are allowed, and the value must be 1-25 characters long."
+          "regex": "^[a-z][a-z0-9A-Z]{1,25}$",
+          "validationMessage": "Only letters and numbers are allowed, and the value must be 1-63 characters long."
         }
       },
       {
