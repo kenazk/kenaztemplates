@@ -167,7 +167,7 @@
                   "minAddressPrefixSize": "/16"
                 },
                 "options": {
-                  "hideExisting": false
+                  "hideExisting": true
                 },
                 "subnets": {
                   "subnet1": {
@@ -232,7 +232,6 @@
       "virtualNetworkNewOrExisting": "[steps('settings').Network.virtualNetwork.newOrExisting]",
       "virtualNetworkSubnetName": "[steps('settings').Network.virtualNetwork.subnets.subnet1.name]",
       "virtualNetworkSubnetAddressPrefix": "[steps('settings').Network.virtualNetwork.subnets.subnet1.addressPrefix]",
-      "virtualNetworkSubnetStartAddress": "[steps('settings').Network.virtualNetwork.subnets.subnet1.startAddress]",
       "publicIPAddressName" : "[steps('settings').Network.ipAddress.name]",
       "publicIPAddressResourceGroup" : "[steps('settings').Network.ipAddress.resourceGroup]",
       "publicIPAddressDomainNameLabel" : "[steps('settings').Network.ipAddress.domainNameLabel]",

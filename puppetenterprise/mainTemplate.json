@@ -10,6 +10,7 @@
     },
     "puppetMasterVmName": {
       "type":"string",
+      "defaultValue": "puppetmaster",
       "metadata":{
         "description":"VM Name"
       }
@@ -22,6 +23,7 @@
     },
     "adminUsername": {
       "type":"string",
+      "defaultValue": "puppetAdmin",
       "metadata":{
         "description":"Admin user name"
       }
@@ -40,6 +42,7 @@
     },
     "sshPublicKey": {
       "type":"securestring",
+      "defaultValue": "Insert public key",
       "metadata":{
         "description":"SSH key"
       }
@@ -52,18 +55,21 @@
     },
     "virtualNetworkName": {
       "type":"string",
+      "defaultValue": "vnet01",
       "metadata":{
         "description":"Virtual Network Name"
       }
     },
     "virtualNetworkResourceGroup": {
       "type":"string",
+      "defaultValue": "rg1",
       "metadata":{
         "description":"Virtual Network Resource Group"
       }
     },
     "virtualNetworkAddressPrefix": {
       "type":"string",
+      "defaultValue": "10.0.0.0/16",
       "metadata":{
         "description":"Virtual Network Address Prefix"
       }
@@ -76,24 +82,28 @@
     },
     "virtualNetworkSubnetName": {
       "type":"string",
+      "defaultValue": "subnet01",
       "metadata":{
         "description":"Virtual Network subnet name"
       }
     },
     "virtualNetworkSubnetAddressPrefix": {
       "type":"string",
+      "defaultValue": "10.0.0.0/24",
       "metadata":{
         "description":"Virtual Network subnet address prefix"
       }
     },
     "publicIPAddressName": {
       "type":"string",
+      "defaultValue": "pip01",
       "metadata":{
         "description":"Public IP Address Name"
       }
     },
     "publicIPAddressResourceGroup": {
       "type":"string",
+      "defaultValue": "rg1",
       "metadata":{
         "description":"Public IP Address Resource Group"
       }
@@ -124,6 +134,7 @@
     },
     "storageAccountResourceGroup": {
       "type":"string",
+      "defaultValue": "rg1",
       "metadata":{
         "description":"Storage Acccount Resource Group"
       }
