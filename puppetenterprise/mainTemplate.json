@@ -30,7 +30,7 @@
     },
     "adminPassword": {
       "type":"securestring",
-      "defaultValue": "Thisismypassword!@#",
+      "defaultValue": "",
       "metadata":{
         "description":"Admin password"
       }
@@ -43,7 +43,7 @@
     },
     "sshPublicKey": {
       "type":"securestring",
-      "defaultValue": "Insert public key",
+      "defaultValue": "",
       "metadata":{
         "description":"SSH key"
       }
@@ -63,7 +63,7 @@
     },
     "virtualNetworkResourceGroup": {
       "type":"string",
-      "defaultValue": "rg1",
+      "defaultValue":"",
       "metadata":{
         "description":"Virtual Network Resource Group"
       }
@@ -104,7 +104,7 @@
     },
     "publicIPAddressResourceGroup": {
       "type":"string",
-      "defaultValue": "rg1",
+      "defaultValue":"",
       "metadata":{
         "description":"Public IP Address Resource Group"
       }
@@ -135,7 +135,7 @@
     },
     "storageAccountResourceGroup": {
       "type":"string",
-      "defaultValue": "rg1",
+      "defaultValue":"",
       "metadata":{
         "description":"Storage Acccount Resource Group"
       }
