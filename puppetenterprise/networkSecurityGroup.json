@@ -88,7 +88,7 @@
   ],
   "outputs": {
     "networkSecurityGroupId": {
-      "value": "[resourceId('Microsoft.Network/networkSecurityGroups',parameters('puppetNetworkSecurityGroup'))]",
+      "value": "[resourceId('Microsoft.Network/networkSecurityGroups','puppetNetworkSecurityGroup')]",
       "type": "string"
     }
   }
