@@ -77,6 +77,7 @@
     },
     "virtualNetworkNewOrExisting": {
       "type":"string",
+      "defaultValue": "new",
       "metadata":{
         "description":"Virtual Network New Or Existing"
       }
@@ -326,6 +327,10 @@
     "Puppet Enterprise Console FQDN:": {
       "value": "[concat('https://',reference('SettingUpPublicIPs').outputs.fqdn.value)]",
       "type": "string"
-    }
+    },
+    "Puppet Enterprise Console Username:": {
+      "value": "admin",
+      "type": "string"
+    },
   }
 }
