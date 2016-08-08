@@ -269,15 +269,23 @@
     }
   ],
   "outputs" : {
-    "Here is the SSH URL:": {
+    "Console URL": {
+      "value": "[concat('https://',reference(resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName')), '2016-03-30').dnsSettings.fqdn)]",
+      "type": "string"
+    },
+    "SSH URL": {
       "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName')), '2016-03-30').dnsSettings.fqdn]",
       "type": "string"
     },
-    "Here is the SSH username:":{
+    "SSH Username":{
       "value" : "[variables('adminUsername')]",
       "type" : "string"
     },
-    "Here is the password (SSH and console):":{
+    "Console Username":{
+      "value" : "azureuser",
+      "type" : "string"
+    },
+    "Password (SSH and console)":{
       "value" : "[variables('adminPassword')]",
       "type" : "string"
     }
