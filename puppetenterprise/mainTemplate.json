@@ -274,7 +274,8 @@
       "apiVersion": "2015-01-01",
       "dependsOn": [
         "Microsoft.Resources/deployments/SettingUpVirtualNetwork",
-        "Microsoft.Resources/deployments/SettingUpStorageAccount"
+        "Microsoft.Resources/deployments/SettingUpStorageAccount",
+        "Microsoft.Resources/deployments/SettingUpPublicIPs"
       ],
       "properties": {
         "mode": "Incremental",
@@ -287,10 +288,10 @@
             "value": "[parameters('location')]"
           },
           "publicIpAddressResourceId": {
-            "value": "[reference('SettingUpPublicIPs').outputs.publicIpId.value]"
+            "value": "[resourceId(concat('Microsoft.Network/publicIPAddresses'), parameters('publicIPAddressName')]"
           },
           "subnetRef": {
-            "value": "[reference('SettingUpVirtualNetwork').outputs.subnetRef.value]"
+            "value": "[concat(resourceId('Microsoft.Network/virtualNetworks/', parameters('virtualNetworkName')), '/subnets/', parameters('virtualNetworkSubnetName'))]"
           },
           "puppetMasterVmName": {
             "value": "[parameters('puppetMasterVmName')]"
@@ -314,7 +315,7 @@
             "value": "[parameters('storageAccountName')]"
           },
           "fqdn": {
-            "value": "[reference('SettingUpPublicIPs').outputs.fqdn.value]"
+            "value": "[concat(('https://', parameters('publicIPAddressDomainNameLabel'), '.', tolower(replace(parameters('location'), ' ', '')), '.cloudapp.azure.com')]"
           },
           "templateBaseUrl":{
             "value" : "[parameters('templateBaseUrl')]"
