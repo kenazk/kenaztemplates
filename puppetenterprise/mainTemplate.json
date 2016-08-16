@@ -315,7 +315,7 @@
             "value": "[parameters('storageAccountName')]"
           },
           "fqdn": {
-            "value": "[concat(('https://', parameters('publicIPAddressDomainNameLabel'), '.', tolower(replace(parameters('location'), ' ', '')), '.cloudapp.azure.com')]"
+            "value": "[concat('https://', parameters('publicIPAddressDomainNameLabel'), '.', tolower(replace(parameters('location'), ' ', '')), '.cloudapp.azure.com')]"
           },
           "templateBaseUrl":{
             "value" : "[parameters('templateBaseUrl')]"
