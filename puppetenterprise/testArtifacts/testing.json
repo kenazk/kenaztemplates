@@ -1,0 +1,110 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "variables": {
+    "location" : "westus",
+    "deploymentCount": 3,
+    "templateUrl" : "https://raw.githubusercontent.com/kenazk/kenaztemplates/master/puppetenterprise/mainTemplate.json",
+    "templateBaseUrl":"https://raw.githubusercontent.com/kenazk/kenaztemplates/master/puppetenterprise/",
+    "vmSize": "Standard_D2_v2",
+    "adminUsername": "kenazk",
+    "adminPassword": "Admin123_!",
+    "consolePassword": "Admin123_!",
+    "sshPublicKey": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/bITmAhEta1ai6xaXipC+wWy7ZpnO1QJRn3+qnPd4SplvXcRfBDtLsIKFzeQ+zr5quoQWcneKHkYA9Aq01XmXK8qE71iJgu2erJTbopxkNod2+/3FJiSR4kTKU1MzJ++OUI9Tz9POT9BXVNETeqKKrK/nkKunohd4oSRYf5lVL7JBqCWswoOBoB8uy10GysuB3RMZLdTSeXBe1sXz01Pq3ncpsNj5bgn1A12zmj26boI0U8/66R3YTAA/MUMQijSWd5nDvaw5Zd9CJfNA0WDai0AKmZ0/uHf6EyakuNF1+AlPiajVKXCey2+6/nwe+oMgE3ImUiaiDXKCBB6GzlLj kenazk@kenaz1.corp.puppetlabs.net",
+    "authenticationType": "password",
+    "virtualNetworkName": "[concat('vnet', uniqueString(resourceGroup().id))]",
+    "virtualNetworkResourceGroup": "",
+    "virtualNetworkAddressPrefix": "10.0.0.0/16",
+    "virtualNetworkNewOrExisting": "new",
+    "virtualNetworkSubnetName": "[concat('sub', uniqueString(resourceGroup().id))]",
+    "virtualNetworkSubnetAddressPrefix": "10.0.0.0/24",
+    "publicIPAddressName": "[concat('pip', uniqueString(resourceGroup().id))]",
+    "publicIPAddressResourceGroup": "",
+    "publicIPAddressDomainNameLabel": "[concat('pup', uniqueString(resourceGroup().id))]",
+    "publicIPAddressNewOrExisting": "new",
+    "storageAccountName": "[concat('str', uniqueString(resourceGroup().id))]",
+    "storageAccountType": "Standard_LRS",
+    "storageAccountResourceGroup": "",
+    "storageAccountNewOrExisting":"new"
+  },
+  "resources": [
+    {
+      "name": "[concat('DeploymentTest-',copyIndex())]",
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2015-01-01",
+      "copy": {
+        "name": "deploymentTestLoop",
+        "count": "[variables('deploymentCount')]"
+      },
+      "properties": {
+        "mode": "Incremental",
+        "templateLink": {
+          "uri": "[variables('templateUrl')]",
+          "contentVersion": "1.0.0.0"
+        },
+        "parameters": {
+          "location": {
+            "value": "[variables('location')]"
+          },
+          "storageAccountType": {
+            "value": "[variables('storageAccountType')]"
+          },
+          "storageAccountName": {
+            "value": "[variables('storageAccountName')]"
+          },
+          "storageAccountResourceGroup": {
+            "value": "[variables('storageAccountResourceGroup')]"
+          },
+          "templateBaseUrl": {
+            "value": "[variables('templateBaseUrl')]"
+          },
+          "vmSize": {
+            "value": "[variables('vmSize')]"
+          },
+          "adminUsername": {
+            "value": "[variables('adminUsername')]"
+          },
+          "adminPassword": {
+            "value": "[variables('adminPassword')]"
+          },
+          "consolePassword": {
+            "value": "[variables('consolePassword')]"
+          },
+          "sshPublicKey": {
+            "value": "[variables('sshPublicKey')]"
+          },
+          "authenticationType": {
+            "value": "[variables('authenticationType')]"
+          },
+          "virtualNetworkName": {
+            "value": "[variables('virtualNetworkName')]"
+          },
+          "virtualNetworkResourceGroup": {
+            "value": "[variables('virtualNetworkResourceGroup')]"
+          },
+          "virtualNetworkAddressPrefix": {
+            "value": "[variables('virtualNetworkAddressPrefix')]"
+          },
+          "virtualNetworkNewOrExisting": {
+            "value": "[variables('virtualNetworkNewOrExisting')]"
+          },
+          "storageAccountNewOrExisting": {
+            "value": "[variables('storageAccountNewOrExisting')]"
+          },
+          "publicIPAddressName": {
+            "value": "[variables('publicIPAddressName')]"
+          },
+          "publicIPAddressResourceGroup": {
+            "value": "[variables('publicIPAddressResourceGroup')]"
+          },
+          "publicIPAddressDomainNameLabel": {
+            "value": "[variables('publicIPAddressDomainNameLabel')]"
+          },
+          "publicIPAddressNewOrExisting": {
+            "value": "[variables('publicIPAddressNewOrExisting')]"
+          }
+        }
+      }
+    }
+  ]
+}
