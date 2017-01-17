@@ -1,0 +1,2611 @@
+info:    Executing command group log show
+info:    Getting group logs
+data:    ----------
+data:    EventId:              6df36b93-9f72-4acc-9a37-653761399124
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc82
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc82
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 14:03:18 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          ec888a57-e5fd-4fa4-9a38-570503c1dadb
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              35e30339-d908-4866-84c6-c59c684ecf05
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc8
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc8
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 14:03:17 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          f28e4705-3d2c-4753-ac2e-6a5edfb7fc52
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              513f6c9d-a33e-4642-8985-2851492a30cf
+data:    Authorization:        
+data:                          action: Microsoft.Network/virtualNetworks/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Network/
+                                       virtualNetworks/vnet01
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Network/virtualNetworks/vnet01
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 14:03:14 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Network/virtualNetworks/write
+data:    OperationId:          36a67fc8-d896-49e6-86a0-99e8709eadab
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Network
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              99414fe0-cc86-4e42-89f7-5bd0d753a1fc
+data:    Authorization:        
+data:                          action: Microsoft.Network/networkSecurityGroups/
+                                       write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Network/
+                                       networkSecurityGroups/
+                                       puppetNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Network/networkSecurityGroups/
+                               puppetNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 14:02:47 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Network/networkSecurityGroups/write
+data:    OperationId:          c4d086d2-769d-4a44-93d8-bc4a421d0c84
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Network
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              1b1528ba-9a5c-426b-9f3f-ba1f5a386556
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       deployments/puppet.puppet-enterprise-2016
+                                       -1-previewpuppet-ent-20160719135242
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/deployments/
+                               puppet.puppet-enterprise-2016-1-previewpuppet-ent
+                               -20160719135242
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:44 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          c2cb9c91-a8f1-4f36-80a1-340150b0e688
+data:    Status:               Failed
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Error
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              5f33c842-8b5e-4686-93ef-2d3c9b597a46
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /ProvisioningPuppetEnterprise
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               ProvisioningPuppetEnterprise
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:43 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          e6a9bd16-2229-4226-ac0c-39bf6dc6a3d7
+data:    Status:               Failed
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Error
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    Conflict
+                               statusMessage: {"status":"Failed","error":{"code
+                               ":"
+                               ResourceDeploymentFailure","message":"The
+                               resource
+                               operation completed with terminal provisioning
+                               state '
+                               Failed'.","details":[{"code":"DeploymentFailed","
+                               message
+                               ":"At least one resource deployment operation
+                               failed.
+                               Please list deployment operations for details.
+                               Please
+                               see https://aka.ms/arm-debug for usage details
+                               .","
+                               details":[{"code":"BadRequest","message":"{\r\n
+                               \"error
+                               \": {\r\n    \"code\": \"InvalidResourceReference
+                               \",\r\n
+                               \"message\": \"Resource /subscriptions/83add486-
+                               9b3f-
+                               4a32-b033-5259606f2d4b/resourceGroups/TEST5-1/
+                               providers/
+                               Microsoft.Network/publicIPAddresses/PIP01
+                               referenced by
+                               resource /subscriptions/83add486-9b3f-4a32-b033
+                               -
+                               5259606f2d4b/resourceGroups/test5-1/providers/
+                               Microsoft.
+                               Network/networkInterfaces/puppetmasterNic was not
+                               found
+                               . Please make sure that the referenced resource
+                               exists,
+                               and that both resources are in the same region
+                               .\",\r\n
+                               \"details\": [\r\n      {\r\n        \"code
+                               \": \"
+                               NotFound\",\r\n        \"message\": \"Resource
+                               /
+                               subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/
+                               resourceGroups/TEST5-1/providers/Microsoft.
+                               Network/
+                               publicIPAddresses/PIP01 not found.\"\r\n      }\r
+                               \n
+                               ]\r\n  }\r\n}"}]}]}}
+                               
+data:    ----------
+data:    EventId:              d00b2910-f5d0-495d-89a0-e2df05b066ed
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /ProvisioningPuppetEnterprise
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               ProvisioningPuppetEnterprise
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:40 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          9497ed14-3fcf-4abe-b232-3ca6e57abdc5
+data:    Status:               Failed
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Error
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              26a62412-be25-4add-bf53-0d33189db1a4
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /ProvisioningPuppetEnterprise
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               ProvisioningPuppetEnterprise
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:40 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          52a0ebb4-78f0-4efb-abe1-d075bf11ef52
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              5f76ad34-631f-4e8f-a9ae-99579c7f5a95
+data:    Authorization:        
+data:                          action: Microsoft.Network/networkInterfaces/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Network/
+                                       networkInterfaces/puppetmasterNic
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Network/networkInterfaces/
+                               puppetmasterNic
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:39 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Network/networkInterfaces/write
+data:    OperationId:          25526341-5f70-45bd-b867-80d9661b9755
+data:    Status:               Failed
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Error
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Network
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    BadRequest
+                               statusMessage: {"error":{"code":"
+                               InvalidResourceReference","message
+                               ":"
+                               Resource /subscriptions/83add486-9b3f-4a32-b033
+                               -
+                               5259606f2d4b/resourceGroups/TEST5-1/providers/
+                               Microsoft.
+                               Network/publicIPAddresses/PIP01 referenced by
+                               resource /
+                               subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/
+                               resourceGroups/test5-1/providers/Microsoft.
+                               Network/
+                               networkInterfaces/puppetmasterNic was not found.
+                               Please
+                               make sure that the referenced resource exists,
+                               and that
+                               both resources are in the same region.","details
+                               ":[{"
+                               code":"NotFound","message":"Resource /
+                               subscriptions/
+                               83add486-9b3f-4a32-b033-5259606f2d4b/
+                               resourceGroups/
+                               TEST5-1/providers/Microsoft.Network/
+                               publicIPAddresses/
+                               PIP01 not found."}]}}
+                               
+data:    ----------
+data:    EventId:              31373007-37a6-41a1-abee-375c4e7f5194
+data:    Authorization:        
+data:                          action: Microsoft.Network/networkInterfaces/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Network/
+                                       networkInterfaces/puppetmasterNic
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Network/networkInterfaces/
+                               puppetmasterNic
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:39 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Network/networkInterfaces/write
+data:    OperationId:          fb2d7069-b276-420c-8ce1-be40ccae6384
+data:    Status:               Failed
+data:    SubStatus:            Bad Request (HTTP Status Code: 400)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: a83f7f89-921d-41e9-92df-
+                               a48b970ab8d2
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Error
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Network
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       BadRequest
+                               serviceRequestId: 467a3f13-c6c1-444d-a1df-
+                               559ef778f377
+                               statusMessage:    {"error":{"code":"
+                               InvalidResourceReference","message
+                               
+                               ":"Resource /subscriptions/83add486-9b3f-4a32-
+                               b033-
+                               5259606f2d4b/resourceGroups/TEST5-1/providers
+                               /
+                               Microsoft.Network/publicIPAddresses/PIP01
+                               referenced
+                               by resource /subscriptions/83add486-9b3f-4a32-
+                               b033-
+                               5259606f2d4b/resourceGroups/test5-1/providers
+                               /
+                               Microsoft.Network/networkInterfaces/
+                               puppetmasterNic
+                               was not found. Please make sure that the
+                               referenced
+                               resource exists, and that both resources are in
+                               the
+                               same region.","details":[{"code":"NotFound","
+                               message
+                               ":"Resource /subscriptions/83add486-9b3f-4a32-
+                               b033-
+                               5259606f2d4b/resourceGroups/TEST5-1/providers
+                               /
+                               Microsoft.Network/publicIPAddresses/PIP01 not
+                               found
+                               ."}]}}
+                               responseBody:     {"error":{"code":"
+                               InvalidResourceReference","message
+                               
+                               ":"Resource /subscriptions/83add486-9b3f-4a32-
+                               b033-
+                               5259606f2d4b/resourceGroups/TEST5-1/providers
+                               /
+                               Microsoft.Network/publicIPAddresses/PIP01
+                               referenced
+                               by resource /subscriptions/83add486-9b3f-4a32-
+                               b033-
+                               5259606f2d4b/resourceGroups/test5-1/providers
+                               /
+                               Microsoft.Network/networkInterfaces/
+                               puppetmasterNic
+                               was not found. Please make sure that the
+                               referenced
+                               resource exists, and that both resources are in
+                               the
+                               same region.","details":[{"code":"NotFound","
+                               message
+                               ":"Resource /subscriptions/83add486-9b3f-4a32-
+                               b033-
+                               5259606f2d4b/resourceGroups/TEST5-1/providers
+                               /
+                               Microsoft.Network/publicIPAddresses/PIP01 not
+                               found
+                               ."}]}}
+                               
+data:    ----------
+data:    EventId:              6eaa07a5-6bd7-47c5-9f17-8d707378c77c
+data:    Authorization:        
+data:                          action: Microsoft.Network/networkInterfaces/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Network/
+                                       networkInterfaces/puppetmasterNic
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Network/networkInterfaces/
+                               puppetmasterNic
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:39 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Network/networkInterfaces/write
+data:    OperationId:          fb2d7069-b276-420c-8ce1-be40ccae6384
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: a83f7f89-921d-41e9-92df-
+                               a48b970ab8d2
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Network
+data:    EventSource:          Administrative
+data:    Properties:           requestbody: {"location":"westus","properties":{"
+                               ipConfigurations":[{"
+                               name":"ipconfig1","properties":{"
+                               privateIPAllocationMethod
+                               
+                               ":"Dynamic","publicIPAddress":{"id":"/
+                               subscriptions/
+                               83add486-9b3f-4a32-b033-5259606f2d4b/
+                               resourceGroups/test5-
+                               1/providers/Microsoft.Network/publicIPAddresses/
+                               pip01"},"
+                               subnet":{"id":"/subscriptions/83add486-9b3f-4a32-
+                               b033-
+                               5259606f2d4b/resourceGroups/test5-1/providers/
+                               Microsoft.
+                               Network/virtualNetworks/vnet01/subnets/subnet01
+                               "}}}]}}
+                               
+data:    ----------
+data:    EventId:              794abd68-7887-4615-92b3-48589e71d27c
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /ProvisioningPuppetEnterprise
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               ProvisioningPuppetEnterprise
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:39 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          2a9c6dd8-e00f-47fc-8ce4-e43ff6994dea
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              59d1c065-79c9-41af-8829-a126c30e5d00
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /ProvisioningPuppetEnterprise
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               ProvisioningPuppetEnterprise
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:38 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          38f1eca9-4852-4081-9525-8d6e93587620
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              bc263055-dade-4883-b380-cccad745606f
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /ProvisioningPuppetEnterprise
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               ProvisioningPuppetEnterprise
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:37 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          d41d6132-fccd-4674-a7f6-a34b251fe6b9
+data:    Status:               Succeeded
+data:    SubStatus:            Created (HTTP Status Code: 201)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 42593a84-4ea3-4956-b091-
+                               6b55cb9cc0c8
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Created
+                               serviceRequestId: 
+                               
+data:    ----------
+data:    EventId:              1fc007c6-cf68-4d73-8b67-9adce345eddc
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /ProvisioningPuppetEnterprise
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               ProvisioningPuppetEnterprise
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:35 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          d41d6132-fccd-4674-a7f6-a34b251fe6b9
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 42593a84-4ea3-4956-b091-
+                               6b55cb9cc0c8
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              b0ec2616-654d-49c1-ae7d-9288dd63ef71
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpVirtualNetwork
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpVirtualNetwork
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:28 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          5e67d9d7-7249-4552-873c-fe244aa5df12
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              282b8a41-427c-4da1-8cfd-20bd366664f2
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpVirtualNetwork
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpVirtualNetwork
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:25 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          43530847-e63c-41b1-9354-00a869f7d7ee
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              d3e2ace9-1aa6-4fc3-af07-9cc8d4d3d923
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpVirtualNetwork
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpVirtualNetwork
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:20 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          9677a1dd-e5a1-4b62-b229-8889e85fd948
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              8325e571-8f53-4712-8717-65aaede020dc
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:20 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          4a280c4a-7e63-4efa-a593-f616ca4d12f8
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              d1a89632-404e-453a-942b-2a5b087d997b
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:20 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          affb0fad-42e5-4b12-9d9e-f8068405c0e1
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              b1a81fe6-c890-4f51-9dd4-8f4af2142a87
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc82
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc82
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:16 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          927c157c-5913-4243-8c13-b74229172ea3
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              f131a653-e724-409e-b686-0197d042aaa1
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc8
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc8
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:15 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          65d84379-7372-4940-96de-373a5aebb1d3
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              63fb157b-5f69-4491-aa67-ff61ee8c2fe1
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpVirtualNetwork
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpVirtualNetwork
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:14 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          48eba5cb-c737-4270-90b1-2f319df7aa48
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              22edcc00-9969-4729-b3af-48c3aa51ba21
+data:    Authorization:        
+data:                          action: Microsoft.Network/virtualNetworks/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Network/
+                                       virtualNetworks/vnet01
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Network/virtualNetworks/vnet01
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:13 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Network/virtualNetworks/write
+data:    OperationId:          d7274578-70d7-47d3-93f2-4d85d019b956
+data:    Status:               Succeeded
+data:    SubStatus:            Created (HTTP Status Code: 201)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: e8cd933f-262d-4a33-9966-
+                               7e6e971819ed
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Network
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Created
+                               serviceRequestId: 6071a9c1-a789-4304-b8de-
+                               f2174ae14830
+                               responseBody:     {"name":"vnet01","id":"/
+                               subscriptions/83add486-9b3f
+                               -
+                               4a32-b033-5259606f2d4b/resourceGroups/test5-1
+                               /
+                               providers/Microsoft.Network/virtualNetworks/
+                               vnet01","
+                               etag":"W/\"2dd05494-302c-459b-8f8c-3cccfd1c1a7c
+                               \"","
+                               type":"Microsoft.Network/virtualNetworks","
+                               location
+                               ":"westus","properties":{"provisioningState
+                               ":"
+                               Updating","resourceGuid":"d66926c7-e32b-4543-89e3
+                               -
+                               4044b24342bf","addressSpace":{"addressPrefixes
+                               ":["10.
+                               0.0.0/16"]},"subnets":[{"name":"subnet01","id
+                               ":"/
+                               subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/
+                               resourceGroups/test5-1/providers/Microsoft.
+                               Network/
+                               virtualNetworks/vnet01/subnets/subnet01","etag":"
+                               W/\"
+                               2dd05494-302c-459b-8f8c-3cccfd1c1a7c\"","
+                               properties
+                               ":{"provisioningState":"Updating","addressPrefix
+                               ":"10
+                               .0.0.0/24","networkSecurityGroup":{"id
+                               ":"/
+                               subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/
+                               resourceGroups/test5-1/providers/Microsoft.
+                               Network/
+                               networkSecurityGroups/puppetNetworkSecurityGroup
+                               
+                               "}}}]}}
+                               
+data:    ----------
+data:    EventId:              2918c42e-31cf-47d3-9785-fc1dc5ec9e00
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpVirtualNetwork
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpVirtualNetwork
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:13 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          80ca7512-15bf-4a54-a770-52be2adbe841
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              249ff369-6eea-40cf-a209-8e690e6bd135
+data:    Authorization:        
+data:                          action: Microsoft.Network/virtualNetworks/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Network/
+                                       virtualNetworks/vnet01
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Network/virtualNetworks/vnet01
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:13 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Network/virtualNetworks/write
+data:    OperationId:          d7274578-70d7-47d3-93f2-4d85d019b956
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: e8cd933f-262d-4a33-9966-
+                               7e6e971819ed
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Network
+data:    EventSource:          Administrative
+data:    Properties:           requestbody: {"location":"westus","properties":{"
+                               addressSpace":{"
+                               addressPrefixes":["10.0.0.0/16"]},"subnets":[{"
+                               name":"
+                               subnet01","properties":{"addressPrefix":"10.0.0.0
+                               /24","
+                               networkSecurityGroup":{"id":"/subscriptions/
+                               83add486-9b3f-
+                               4a32-b033-5259606f2d4b/resourceGroups/test5-1/
+                               providers/
+                               Microsoft.Network/networkSecurityGroups
+                               /
+                               puppetNetworkSecurityGroup"}}}]}}
+                               
+data:    ----------
+data:    EventId:              0efaaf3e-1156-4fd8-b9ea-004f01d70a08
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpVirtualNetwork
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpVirtualNetwork
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:12 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          e062c875-194d-4bd3-8099-73a10c34f79d
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              102792b8-b6c8-46b1-8c0f-10b24f3e11d8
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpVirtualNetwork
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpVirtualNetwork
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:12 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          c6567f75-f2b2-489a-a950-ea1f3e95e6cc
+data:    Status:               Succeeded
+data:    SubStatus:            Created (HTTP Status Code: 201)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 866ace43-1f27-4086-955e-
+                               11cf437cfb72
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Created
+                               serviceRequestId: 
+                               
+data:    ----------
+data:    EventId:              ca8d39a1-4f67-4cc0-957b-e750153ea967
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpVirtualNetwork
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpVirtualNetwork
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:09 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          c6567f75-f2b2-489a-a950-ea1f3e95e6cc
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 866ace43-1f27-4086-955e-
+                               11cf437cfb72
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              71f717d2-487f-401d-8694-d2812d61f981
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:09 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          2918adf9-7698-4549-9f06-4f6f50f49e61
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              7731e64e-ec2d-4969-850e-b575bb406309
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:02 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          f28c9fdb-81d2-4fe5-870b-74a42f735ce2
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              50966c7c-56ac-4ce7-ab7c-74cc6c21c346
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:01 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          389300a3-23cf-4c8a-a894-b155365ef280
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              008016da-528f-42b8-b6c3-8267038634fb
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:53:00 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          3d43f8c4-ebae-431b-b947-68cc00aa1d2b
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              d9c69255-6e68-4a06-912e-5bef1105f203
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:54 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          5eacce8c-3e20-49d4-91b4-b7f06d2923be
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              22505751-c411-46b0-904e-1cfaf4d1115c
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:54 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          1d52906a-cc14-4a5c-ac43-1121c002e102
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              484142de-34bc-47b7-9f12-064595b65182
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpPublicIPs
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpPublicIPs
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:50 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          0fa15527-10a9-48bb-95f1-dbcc9a60cd3c
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              5350e9a2-4709-400c-9ac6-b9ed61f48d0f
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc82
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc82
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:50 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          37fc6fd6-ea9a-4d13-abf6-593fcfd1d261
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    Accepted
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              dd5902a8-dc9b-46e7-bd6b-7a03965d010a
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc82
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc82
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:50 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          b76e82f9-c2ec-4738-a557-b0ef584bd48f
+data:    Status:               Accepted
+data:    SubStatus:            Accepted (HTTP Status Code: 202)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: c3741912-a4a9-4ac7-856c-
+                               dc61ac9d4348
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Accepted
+                               serviceRequestId: 7827252e-fa16-40ba-ae99-
+                               61895b76ab32
+                               
+data:    ----------
+data:    EventId:              25010ec2-c46c-4b2c-b9bb-113f5a8312b0
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc8
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc8
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:50 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          cadea3c1-cbd6-49a4-a096-586745a1afb5
+data:    Status:               Accepted
+data:    SubStatus:            Accepted (HTTP Status Code: 202)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 7953293d-8687-452c-ac0e-
+                               c397354a7b37
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Accepted
+                               serviceRequestId: 7827252e-fa16-40ba-ae99-
+                               61895b76ab32
+                               
+data:    ----------
+data:    EventId:              936de72c-8db8-4d41-9d4b-bfe9a5b685f5
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc8
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc8
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:50 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          0b032e8e-fe9e-441c-94a8-75f62a208921
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    Accepted
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              eebfa28c-0a00-47bb-a7c5-b1c3b889b8db
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:50 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          abf97d0d-705e-44a2-a8f0-12e0854c604c
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              df12517d-5925-488c-a920-346655de5745
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:49 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          8d857327-b1b4-4a9f-9809-0fbe801184c4
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              e9825a7e-4ce5-4193-9abd-1e7e7d226715
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc82
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc82
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:48 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          b76e82f9-c2ec-4738-a557-b0ef584bd48f
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: c3741912-a4a9-4ac7-856c-
+                               dc61ac9d4348
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              74b637d6-7476-4c86-b19f-8dba51ba3dab
+data:    Authorization:        
+data:                          action: Microsoft.Storage/storageAccounts/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Storage/
+                                       storageAccounts/str3bc8
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Storage/storageAccounts/str3bc8
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:48 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Storage/storageAccounts/write
+data:    OperationId:          cadea3c1-cbd6-49a4-a096-586745a1afb5
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 7953293d-8687-452c-ac0e-
+                               c397354a7b37
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Storage
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              c700ba12-dc05-41d4-ab48-28433ef7d9aa
+data:    Authorization:        
+data:                          action: Microsoft.Network/networkSecurityGroups/
+                                       write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Network/
+                                       networkSecurityGroups/
+                                       puppetNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Network/networkSecurityGroups/
+                               puppetNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:47 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Network/networkSecurityGroups/write
+data:    OperationId:          000a5d06-ba76-4abc-a440-3cf74fe7b839
+data:    Status:               Succeeded
+data:    SubStatus:            Created (HTTP Status Code: 201)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 45d467fc-0504-48ec-b49e-
+                               2a7b30a2bf6c
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Network
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Created
+                               serviceRequestId: 66eac455-4229-4853-9d07-
+                               82e5c83dad2b
+                               responseBody:     {"name":"
+                               puppetNetworkSecurityGroup","id
+                               ":"/
+                               subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/
+                               resourceGroups/test5-1/providers/Microsoft.
+                               Network/
+                               networkSecurityGroups/puppetNetworkSecurityGroup
+                               ","
+                               etag":"W/\"4ef9f204-b9b4-4361-969e-bf797ec080dd
+                               \"","
+                               type":"Microsoft.Network/networkSecurityGroups
+                               ","
+                               location":"westus","properties":{"
+                               provisioningState
+                               ":"Updating","resourceGuid":"51de91ef-2109-48c9-
+                               95a4-
+                               5a5eb0974873","securityRules":[{"name":"puppet","
+                               id
+                               ":"/subscriptions/83add486-9b3f-4a32-b033
+                               -
+                               5259606f2d4b/resourceGroups/test5-1/providers
+                               /
+                               Microsoft.Network/networkSecurityGroups
+                               /
+                               puppetNetworkSecurityGroup/securityRules/puppet
+                               ","
+                               etag":"W/\"4ef9f204-b9b4-4361-969e-bf797ec080dd
+                               \"","
+                               properties":{"provisioningState":"Updating","
+                               protocol
+                               ":"Tcp","sourcePortRange":"*","
+                               destinationPortRange
+                               
+                               ":"8140","sourceAddressPrefix
+                               ":"*","
+                               destinationAddressPrefix":"*","access":"Allow
+                               ","
+                               priority":100,"direction":"Inbound"}},{"name":"
+                               ssh","
+                               id":"/subscriptions/83add486-9b3f-4a32-b033
+                               -
+                               5259606f2d4b/resourceGroups/test5-1/providers
+                               /
+                               Microsoft.Network/networkSecurityGroups
+                               /
+                               puppetNetworkSecurityGroup/securityRules/ssh","
+                               etag
+                               ":"W/\"4ef9f204-b9b4-4361-969e-bf797ec080dd
+                               \"","
+                               properties":{"provisioningState":"Updating
+                               ","
+                               description":"Allow SSH","protocol":"tcp
+                               ","
+                               sourcePortRange":"*","destinationPortRange":"22
+                               ","
+                               sourceAddressPrefix":"*","
+                               destinationAddressPrefix
+                               
+                               ":"*","access":"Allow","priority":201,"direction
+                               ":"
+                               Inbound"}},{"name":"MCollective","id":"/
+                               subscriptions
+                               /83add486-9b3f-4a32-b033-5259606f2d4b/
+                               resourceGroups/
+                               test5-1/providers/Microsoft.Network
+                               /
+                               networkSecurityGroups/puppetNetworkSecurityGroup
+                               /
+                               securityRules/MCollective","etag":"W/\"4ef9f204-
+                               b9b4-
+                               4361-969e-bf797ec080dd\"","properties
+                               ":{"
+                               provisioningState":"Updating","description
+                               ":"
+                               MCollective","protocol":"tcp","sourcePortRange
+                               ":"*","
+                               destinationPortRange":"61613","
+                               sourceAddressPrefix
+                               
+                               ":"*","destinationAddressPrefix":"*","access":"
+                               Allow
+                               ","priority":102,"direction":"Inbound"}},{"name
+                               ":"
+                               https","id":"/subscriptions/83add486-9b3f-4a32-
+                               b033-
+                               5259606f2d4b/resourceGroups/test5-1/providers
+                               /
+                               Microsoft.Network/networkSecurityGroups
+                               /
+                               puppetNetworkSecurityGroup/securityRules/https","
+                               etag
+                               ":"W/\"4ef9f204-b9b4-4361-969e-bf797ec080dd
+                               \"","
+                               properties":{"provisioningState":"Updating
+                               ","
+                               description":"MCollective","protocol":"tcp
+                               ","
+                               sourcePortRange":"*","destinationPortRange":"443
+                               ","
+                               sourceAddressPrefix":"*","
+                               destinationAddressPrefix
+                               
+                               ":"*","access":"Allow","priority":103,"direction
+                               ":"
+                               Inbound"}},{"name":"orchestrator","id
+                               ":"/
+                               subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/
+                               resourceGroups/test5-1/providers/Microsoft.
+                               Network/
+                               networkSecurityGroups/puppetNetworkSecurityGroup
+                               /
+                               securityRules/orchestrator","etag":"W/\"4ef9f204-
+                               b9b4
+                               -4361-969e-bf797ec080dd\"","properties
+                               ":{"
+                               provisioningState":"Updating","protocol":"Tcp
+                               ","
+                               sourcePortRange":"*","destinationPortRange":"8142
+                               ","
+                               sourceAddressPrefix":"*","
+                               destinationAddressPrefix
+                               
+                               ":"*","access":"Allow","priority":104,"direction
+                               ":"
+                               Inbound"}}],"defaultSecurityRules":[{"name
+                               ":"
+                               AllowVnetInBound","id":"/subscriptions/83add486-
+                               9b3f-
+                               4a32-b033-5259606f2d4b/resourceGroups/test5-1
+                               /
+                               providers/Microsoft.Network/networkSecurityGroups
+                               /
+                               puppetNetworkSecurityGroup/defaultSecurityRules
+                               /
+                               AllowVnetInBound","etag":"W/\"4ef9f204-b9b4-4361-
+                               969e
+                               -bf797ec080dd\"","properties":{"provisioningState
+                               ":"
+                               Updating","description":"Allow inbound traffic
+                               from
+                               all VMs in VNET","protocol":"*","sourcePortRange
+                               
+                               ":"*","destinationPortRange":"*","
+                               sourceAddressPrefix
+                               
+                               ":"VirtualNetwork","destinationAddressPrefix
+                               ":"
+                               VirtualNetwork","access":"Allow","priority":65000
+                               ,"
+                               direction":"Inbound"}},{"name
+                               ":"
+                               AllowAzureLoadBalancerInBound","id":"/
+                               subscriptions/
+                               83add486-9b3f-4a32-b033-5259606f2d4b/
+                               resourceGroups/
+                               test5-1/providers/Microsoft.Network
+                               /
+                               networkSecurityGroups/puppetNetworkSecurityGroup
+                               /
+                               defaultSecurityRules/
+                               AllowAzureLoadBalancerInBound
+                               ","
+                               etag":"W/\"4ef9f204-b9b4-4361-969e-bf797ec080dd
+                               \"","
+                               properties":{"provisioningState":"Updating
+                               ","
+                               description":"Allow inbound traffic from azure
+                               load
+                               balancer","protocol":"*","sourcePortRange
+                               ":"*","
+                               destinationPortRange":"*","sourceAddressPrefix
+                               ":"
+                               AzureLoadBalancer","destinationAddressPrefix
+                               ":"*","
+                               access":"Allow","priority":65001,"direction":"
+                               Inbound
+                               "}},{"name":"DenyAllInBound","id":"/subscriptions
+                               /
+                               83add486-9b3f-4a32-b033-5259606f2d4b/
+                               resourceGroups/
+                               test5-1/providers/Microsoft.Network
+                               /
+                               networkSecurityGroups/puppetNetworkSecurityGroup
+                               /
+                               defaultSecurityRules/DenyAllInBound","etag":"W
+                               /\"
+                               4ef9f204-b9b4-4361-969e-bf797ec080dd\"","
+                               properties
+                               ":{"provisioningState":"Updating","description":"
+                               Deny
+                               all inbound traffic","protocol":"*","
+                               sourcePortRange
+                               
+                               ":"*","destinationPortRange":"*","
+                               sourceAddressPrefix
+                               
+                               ":"*","destinationAddressPrefix":"*","access":"
+                               Deny
+                               ","priority":65500,"direction":"Inbound"}},{"name
+                               ":"
+                               AllowVnetOutBound","id":"/subscriptions/83add486-
+                               9b3f
+                               -4a32-b033-5259606f2d4b/resourceGroups/test5-1
+                               /
+                               providers/Microsoft.Network/networkSecurityGroups
+                               /
+                               puppetNetworkSecurityGroup/defaultSecurityRules
+                               /
+                               AllowVnetOutBound","etag":"W/\"4ef9f204-b9b4-4361
+                               -
+                               969e-bf797ec080dd\"","properties":{"
+                               provisioningState
+                               ":"Updating","description":"Allow outbound
+                               traffic
+                               from all VMs to all VMs in VNET","protocol
+                               ":"*","
+                               sourcePortRange":"*","destinationPortRange
+                               ":"*","
+                               sourceAddressPrefix":"VirtualNetwork
+                               ","
+                               destinationAddressPrefix":"VirtualNetwork","
+                               access":"
+                               Allow","priority":65000,"direction":"Outbound
+                               "}},{"
+                               name":"AllowInternetOutBound","id":"/
+                               subscriptions/
+                               83add486-9b3f-4a32-b033-5259606f2d4b/
+                               resourceGroups/
+                               test5-1/providers/Microsoft.Network
+                               /
+                               networkSecurityGroups/puppetNetworkSecurityGroup
+                               /
+                               defaultSecurityRules/AllowInternetOutBound","etag
+                               ":"W
+                               /\"4ef9f204-b9b4-4361-969e-bf797ec080dd
+                               \"","
+                               properties":{"provisioningState":"Updating
+                               ","
+                               description":"Allow outbound traffic from all VMs
+                               to
+                               Internet","protocol":"*","sourcePortRange
+                               ":"*","
+                               destinationPortRange":"*","sourceAddressPrefix
+                               ":"*","
+                               destinationAddressPrefix":"Internet","access":"
+                               Allow
+                               ","priority":65001,"direction":"Outbound"}},{"
+                               name":"
+                               DenyAllOutBound","id":"/subscriptions/83add486-
+                               9b3f-
+                               4a32-b033-5259606f2d4b/resourceGroups/test5-1
+                               /
+                               providers/Microsoft.Network/networkSecurityGroups
+                               /
+                               puppetNetworkSecurityGroup/defaultSecurityRules
+                               /
+                               DenyAllOutBound","etag":"W/\"4ef9f204-b9b4-4361-
+                               969e-
+                               bf797ec080dd\"","properties":{"provisioningState
+                               ":"
+                               Updating","description":"Deny all outbound
+                               traffic","
+                               protocol":"*","sourcePortRange
+                               ":"*","
+                               destinationPortRange":"*","sourceAddressPrefix
+                               ":"*","
+                               destinationAddressPrefix":"*","access":"Deny
+                               ","
+                               priority":65500,"direction":"Outbound"}}]}}
+                               
+data:    ----------
+data:    EventId:              97d9f2b7-d6a6-4ba2-8300-962d9589d2bd
+data:    Authorization:        
+data:                          action: Microsoft.Network/networkSecurityGroups/
+                                       write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Network/
+                                       networkSecurityGroups/
+                                       puppetNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Network/networkSecurityGroups/
+                               puppetNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:46 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Network/networkSecurityGroups/write
+data:    OperationId:          000a5d06-ba76-4abc-a440-3cf74fe7b839
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 45d467fc-0504-48ec-b49e-
+                               2a7b30a2bf6c
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft.Network
+data:    EventSource:          Administrative
+data:    Properties:           requestbody: {"location":"westus","properties":{"
+                               securityRules":[{"name
+                               ":"puppet","properties":{"protocol":"Tcp","
+                               sourcePortRange
+                               ":"*","destinationPortRange":"8140","
+                               sourceAddressPrefix
+                               ":"*","destinationAddressPrefix":"*","access":"
+                               Allow","
+                               priority":100,"direction":"Inbound"}},{"name":"
+                               ssh","
+                               properties":{"description":"Allow SSH","protocol
+                               ":"tcp","
+                               sourcePortRange":"*","destinationPortRange":"22
+                               ","
+                               sourceAddressPrefix":"*","
+                               destinationAddressPrefix
+                               ":"*","
+                               access":"Allow","priority":201,"direction":"
+                               Inbound"}},{"
+                               name":"MCollective","properties":{"description
+                               ":"
+                               MCollective","protocol":"tcp","sourcePortRange
+                               ":"*","
+                               destinationPortRange":"61613","
+                               sourceAddressPrefix":"*","
+                               destinationAddressPrefix":"*","access":"Allow","
+                               priority":
+                               102,"direction":"Inbound"}},{"name":"https","
+                               properties
+                               ":{"description":"MCollective","protocol":"tcp
+                               ","
+                               sourcePortRange":"*","destinationPortRange":"443
+                               ","
+                               sourceAddressPrefix":"*","
+                               destinationAddressPrefix
+                               ":"*","
+                               access":"Allow","priority":103,"direction":"
+                               Inbound"}},{"
+                               name":"orchestrator","properties":{"protocol":"
+                               Tcp","
+                               sourcePortRange":"*","destinationPortRange":"8142
+                               ","
+                               sourceAddressPrefix":"*","
+                               destinationAddressPrefix
+                               ":"*","
+                               access":"Allow","priority":104,"direction":"
+                               Inbound"}}]}}
+                               
+data:    ----------
+data:    EventId:              9460040d-fb56-4850-bd43-1a87e82fc6bf
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          ef1e5585-f3c2-414a-9cae-c6ff95cde241
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              00826d2c-8ee4-46cc-b478-345f47d9fff3
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpPublicIPs
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpPublicIPs
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          9a5fe6f8-082e-4e3f-bea2-aca5d6b37422
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              303b1d38-73c7-4731-9a29-cbe33633b76b
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          8467194d-9fe2-468c-8563-25da7c0f5b4e
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              8d9f1d20-a7fd-40ea-8832-70daae485b8f
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          7e4a0c92-3061-4f5b-b538-37fb350e6159
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              2753e2ed-926f-4f7c-8d0f-399b0e846538
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          2e380136-8bcb-4795-81aa-565d9e6856ee
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              9f32c59d-385e-44d4-84a6-4e9cfa495814
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpPublicIPs
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpPublicIPs
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          dafd3e31-a9ca-4e52-9981-60c3a20850af
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              68cf3140-72a3-49d9-9696-b46953cb301c
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          968e746a-03d1-4010-8611-071a3d5cbf7a
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              c2c4f3ff-4bcc-446e-81fa-9f3d0cb1124a
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          930de96f-0f3f-4647-9627-20cae5e2e5e8
+data:    Status:               Succeeded
+data:    SubStatus:            Created (HTTP Status Code: 201)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: eb752e1f-cec9-4053-afca-
+                               ef9b282bd9bc
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Created
+                               serviceRequestId: 
+                               
+data:    ----------
+data:    EventId:              4ffbebdf-fe1b-4eeb-8841-c8902c25159f
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpPublicIPs
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpPublicIPs
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          7520f25b-e015-487c-aae2-96a53eca2cb8
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              fc4a4e08-bb98-4aa7-8e0e-d8a7eb4db162
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          f1824276-0096-463c-9026-5045c72f138c
+data:    Status:               Succeeded
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          []
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:    OK
+                               statusMessage: "Resource provisioning is in
+                               progress."
+                               
+data:    ----------
+data:    EventId:              5d284c0d-dc95-4a9b-ba5d-b76e6d7023a3
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpPublicIPs
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpPublicIPs
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          50eb5b92-8724-48de-acf4-1d40d5786ddd
+data:    Status:               Succeeded
+data:    SubStatus:            Created (HTTP Status Code: 201)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 90adb789-e380-4d50-b235-
+                               c61c5c2c7550
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Created
+                               serviceRequestId: 
+                               
+data:    ----------
+data:    EventId:              5f9a5d15-a854-44af-aab5-28a92c5ecbf5
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:45 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          415b54e5-b3b5-4546-97f8-39101467d45d
+data:    Status:               Succeeded
+data:    SubStatus:            Created (HTTP Status Code: 201)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 61bfe7fa-776e-494d-89de-
+                               96f65d8df13f
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Created
+                               serviceRequestId: 
+                               
+data:    ----------
+data:    EventId:              cab76378-c03a-4bdd-a73b-b444ea35a1e9
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpPublicIPs
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpPublicIPs
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:44 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          50eb5b92-8724-48de-acf4-1d40d5786ddd
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 90adb789-e380-4d50-b235-
+                               c61c5c2c7550
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              4a28ebb6-480c-4d5c-af23-cac7b1655c67
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpNetworkSecurityGroup
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpNetworkSecurityGroup
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:44 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          930de96f-0f3f-4647-9627-20cae5e2e5e8
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: eb752e1f-cec9-4053-afca-
+                               ef9b282bd9bc
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              66160d27-e37b-46a9-a012-af17ab6547b5
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/Microsoft.Resources/deployments
+                                       /SettingUpStorageAccount
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               Microsoft.Resources/deployments/
+                               SettingUpStorageAccount
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:44 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          415b54e5-b3b5-4546-97f8-39101467d45d
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 61bfe7fa-776e-494d-89de-
+                               96f65d8df13f
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              03eaf676-0a29-4844-ae8b-0f7595402073
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       deployments/puppet.puppet-enterprise-2016
+                                       -1-previewpuppet-ent-20160719135242
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/deployments/
+                               puppet.puppet-enterprise-2016-1-previewpuppet-ent
+                               -20160719135242
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:44 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Status:               Succeeded
+data:    SubStatus:            Created (HTTP Status Code: 201)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 233dd317-71ea-46e0-9734-
+                               bfbc74d8f073
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Created
+                               serviceRequestId: 
+                               
+data:    ----------
+data:    EventId:              5d5e6c6e-e193-4235-be6d-ef4421a753ff
+data:    Authorization:        
+data:                          action: Microsoft.Resources/deployments/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       deployments/puppet.puppet-enterprise-2016
+                                       -1-previewpuppet-ent-20160719135242
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/deployments/
+                               puppet.puppet-enterprise-2016-1-previewpuppet-ent
+                               -20160719135242
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:43 GMT-0700 (PDT)
+data:    OperationName:        Microsoft.Resources/deployments/write
+data:    OperationId:          7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        7827252e-fa16-40ba-ae99-61895b76ab32
+data:    Description:          
+data:    HttpRequest:          clientRequestId: 233dd317-71ea-46e0-9734-
+                               bfbc74d8f073
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              c78f666f-e59f-4419-9a5d-f9863bc16a70
+data:    Authorization:        
+data:                          action: microsoft.resources/deployments/validate/
+                                       action
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/microsoft.resources/deployments
+                                       /puppet.puppet-enterprise-2016-1-
+                                       previewpuppet-ent-20160719135231
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               microsoft.resources/deployments/puppet.puppet-
+                               enterprise-2016-1-previewpuppet-ent-
+                               20160719135231
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:34 GMT-0700 (PDT)
+data:    OperationName:        microsoft.resources/deployments/validate/action
+data:    OperationId:          86210ea0-c855-4218-a0d0-54eaf5d006e5
+data:    Status:               Succeeded
+data:    SubStatus:            OK (HTTP Status Code: 200)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        86210ea0-c855-4218-a0d0-54eaf5d006e5
+data:    Description:          
+data:    HttpRequest:          clientRequestId: d2498418-bc21-4c1c-91bd-
+                               e8ed451c1020
+                               clientIpAddress: 192.69.65.16
+                               method:          POST
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       OK
+                               serviceRequestId: 
+                               
+data:    ----------
+data:    EventId:              f07c0315-24e2-4206-8198-a5c7924da059
+data:    Authorization:        
+data:                          action: microsoft.resources/deployments/validate/
+                                       action
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1/
+                                       providers/microsoft.resources/deployments
+                                       /puppet.puppet-enterprise-2016-1-
+                                       previewpuppet-ent-20160719135231
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1/providers/
+                               microsoft.resources/deployments/puppet.puppet-
+                               enterprise-2016-1-previewpuppet-ent-
+                               20160719135231
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:33 GMT-0700 (PDT)
+data:    OperationName:        microsoft.resources/deployments/validate/action
+data:    OperationId:          86210ea0-c855-4218-a0d0-54eaf5d006e5
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        86210ea0-c855-4218-a0d0-54eaf5d006e5
+data:    Description:          
+data:    HttpRequest:          clientRequestId: d2498418-bc21-4c1c-91bd-
+                               e8ed451c1020
+                               clientIpAddress: 192.69.65.16
+                               method:          POST
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           
+data:    ----------
+data:    EventId:              c7136479-01b1-404c-b731-b7fda7045294
+data:    Authorization:        
+data:                          action: Microsoft.Resources/subscriptions/
+                                       resourcegroups/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:33 GMT-0700 (PDT)
+data:    OperationName:        Update resource group
+data:    OperationId:          39b30227-5de2-48cb-8a44-d5da7febfb84
+data:    Status:               Succeeded
+data:    SubStatus:            Created (HTTP Status Code: 201)
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        39b30227-5de2-48cb-8a44-d5da7febfb84
+data:    Description:          
+data:    HttpRequest:          clientRequestId: d2498418-bc21-4c1c-91bd-
+                               e8ed451c101f
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           statusCode:       Created
+                               serviceRequestId: 
+                               responseBody:     {"id":"/subscriptions/83add486-
+                               9b3f-4a32-b033-
+                               5259606f2d4b/resourceGroups/test5-1","name":"
+                               test5-1
+                               ","location":"westus","properties
+                               ":{"
+                               provisioningState":"Succeeded"}}
+                               
+data:    ----------
+data:    EventId:              a2eab5c0-93f1-4494-927d-a3ee026f4e5a
+data:    Authorization:        
+data:                          action: Microsoft.Resources/subscriptions/
+                                       resourcegroups/write
+data:                          role:   
+data:                          scope:  /subscriptions/83add486-9b3f-4a32-b033-
+                                       5259606f2d4b/resourcegroups/test5-1
+data:    ResourceUri:          /subscriptions/83add486-9b3f-4a32-b033-
+                               5259606f2d4b/resourcegroups/test5-1
+data:    SubscriptionId:       83add486-9b3f-4a32-b033-5259606f2d4b
+data:    EventTimestamp (UTC): Fri Aug 19 2016 13:52:32 GMT-0700 (PDT)
+data:    OperationName:        Update resource group
+data:    OperationId:          39b30227-5de2-48cb-8a44-d5da7febfb84
+data:    Status:               Started
+data:    SubStatus:            
+data:    Caller:               kenazkwa@outlook.com
+data:    CorrelationId:        39b30227-5de2-48cb-8a44-d5da7febfb84
+data:    Description:          
+data:    HttpRequest:          clientRequestId: d2498418-bc21-4c1c-91bd-
+                               e8ed451c101f
+                               clientIpAddress: 192.69.65.16
+                               method:          PUT
+                               
+data:    Level:                Informational
+data:    ResourceGroup:        test5-1
+data:    ResourceProvider:     Microsoft Resources
+data:    EventSource:          Administrative
+data:    Properties:           requestbody: {"location":"westus"}
+                               
+info:    group log show command OK

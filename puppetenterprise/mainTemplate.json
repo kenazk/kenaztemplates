@@ -291,7 +291,7 @@
             "value": "[resourceId(parameters('publicIPAddressResourceGroup'),'Microsoft.Network/publicIPAddresses', parameters('publicIPAddressName'))]"
           },
           "subnetRef": {
-            "value": "[concat(resourceId(parameters('virtualNetworkResourceGroup'),'Microsoft.Network/virtualNetworks/', parameters('virtualNetworkName')), '/subnets/', parameters('virtualNetworkSubnetName'))]"
+            "value": "[concat(resourceId('Microsoft.Network/virtualNetworks/', parameters('virtualNetworkName')), '/subnets/', parameters('virtualNetworkSubnetName'))]"
           },
           "puppetMasterVmName": {
             "value": "[parameters('puppetMasterVmName')]"
@@ -332,6 +332,6 @@
     "Puppet Enterprise Console Username:": {
       "value": "admin",
       "type": "string"
-    },
+    }
   }
 }
